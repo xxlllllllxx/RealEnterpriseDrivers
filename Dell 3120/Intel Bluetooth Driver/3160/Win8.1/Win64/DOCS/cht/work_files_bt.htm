@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=big5">
+    <title>透過藍牙(R) 傳輸檔案</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>透過藍牙<sup>&reg;</sup> 傳輸檔案</h1>
+
+<p>與其他藍牙裝置共用電腦上的本機檔案與資料夾；在電腦與藍牙裝置之間傳輸任何類型的檔案；甚至是在藍牙裝置上建立或刪除檔案及資料夾；以及從 Microsoft Office 功能表使用「傳送到」精靈將檔案傳送至藍牙裝置。</p>
+
+<p>支援的設定檔及角色：</p>
+
+<ul>
+ <li>檔案傳輸規範 (FTP) (用戶端/伺服器)</li>
+ <li>基本圖像設定檔 (BIP) (發送方/回應方)</li>
+ <li>物件發送設定檔 (OPP) (用戶端/伺服器)</li>
+</ul>
+
+<p>支援的功能：</p>
+
+<ul>
+ <li>物件交換 (OBEX) 1.5 單一回應模式 (SRM)</li>
+ <li>將物件推送規範 (OPP) 用戶端與 Microsoft Office 整合</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>將本機資料夾與其他藍牙裝置共用</h2>
+
+<p>遵循本使用者指南中<a name="_shared_folder_configuration">資料夾共用設定</a>一節描述的步驟，即可與其他藍牙裝置共用電腦上的資料夾。</p>
+
+<p>共用資料夾的用途是做為透過 FTP 傳輸檔案的根資料夾，以及接收透過 OPP 與 BIP 傳輸檔案的預設資料夾。</p>
+
+<h2><a name="_browsing_shared_folder">瀏覽遠端藍牙裝置的共用資料夾</a></h2>
+
+<p>連線至支援 FTP 的藍牙裝置時，系統可能會使用類似檔案總管的標準視窗來進行裝置和電腦間的一般檔案操作，一如在電腦上進行本機操作一樣：</p>
+
+<ul>
+ <li>瀏覽檔案和資料夾</li>
+ <li>傳輸檔案和資料夾</li>
+ <li>刪除檔案和資料夾</li>
+ <li>重新命名檔案和資料夾 <br><b><i>提示：</i></b>若遠端裝置支援早於 v1.2 前的 FTP 伺服器角色，那麼便只能重新命名空的資料夾。</li>
+ <li>建立資料夾</li>
+</ul>
+
+<p>若要從「服務視窗」存取遠端裝置上的共用資料夾：</p>
+
+<ol>
+ <li>開啟裝置的「服務」視窗 (請參閱<a href="star_new_devi.htm#_start_working_new_bluetooth_device">新增並連線至新的藍牙<sup>&reg;</sup> 裝置</a>)。</li>
+ <li>按一下<b>瀏覽遠端資料夾</b>。</li>
+</ol>
+
+<p>若要從「Windows 檔案總管」存取遠端裝置上的共用資料夾：</p>
+
+<ol>
+ <li>開啟<b>電腦</b>資料夾。</li>
+ <li>按一下有遠端裝置名稱的圖示。</li>
+</ol>
+
+<p><b><i>提示：</i></b>如果遠端裝置可暫時支援 FTP 伺服器角色 (意即可開啟或關閉 FTP 伺服器角色)，那麼<b>電腦</b>資料夾中可能會沒有連結。在此情況下，請使用遠端裝置「服務」視窗。</p>
+
+<p><b><i>提示：</i></b>資料交換期間，遠端裝置可能會要求您提供密碼，此時必須在兩種裝置上輸入相同的密碼才能連線。如果密碼不符，則會終止連線。</p>
+
+<h2><a name="_sending_files">傳送檔案至藍牙裝置</a></h2>
+
+<p><b>傳送檔案至藍牙裝置精靈</b>是用來將檔案傳送至遠端藍牙裝置。精靈僅可傳送單一檔案，但可同時啟動數個精靈。精靈會提供選擇目標遠端裝置以及欲傳輸之檔案的步驟順序。<b>傳送檔案至藍牙裝置精靈</b>可在數個情境中執行。</p>
+
+<p><b><i>提示：</i></b>BIP 通常用於從行動裝置將圖片傳送至電腦。OPP 則用於傳送所有其他類型的檔案。<b>傳送檔案至藍牙裝置精靈</b>可支援這兩種設定檔。</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>從 Microsoft Office 將檔案傳送至藍牙裝置</h3>
+
+<p>支援以下 <span class="no_translation">Microsoft Office</span> 版本：</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>支援以下 <span class="no_translation">Microsoft Office</span> 應用程式與項目：</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>：<span class="translation_from_microsoft">文件</span></li>
+ <li><span class="no_translation">Excel</span>：<span class="translation_from_microsoft">活頁簿</span></li>
+ <li><span class="no_translation">PowerPoint</span>：<span class="translation_from_microsoft">簡報</span></li>
+ <li><span class="no_translation">Access</span>：<span class="translation_from_microsoft">資料庫</span></li>
+ <li><span class="no_translation">Outlook</span>：<span class="translation_from_microsoft">約會</span>、<span class="translation_from_microsoft">連絡人</span>、<span class="translation_from_microsoft">郵件</span>、<span class="translation_from_microsoft">記事</span>、<span class="translation_from_microsoft">工作</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> 項目會在可傳送至遠端 Bluetooth 裝置前即自動儲存。</p>
+
+<p><b><i>註：</i></b>若 <span class="no_translation">Microsoft Office</span> 項目先前未曾儲存，則 <span class="no_translation">Word</span>、<span class="no_translation">Excel</span> 和 <span class="no_translation">PowerPoint</span> 中會出現儲存提示。</p>
+
+<p><b><i>註：</i></b>若 <span class="no_translation">Microsoft Office</span> 項目為剛建立的資料庫，則 <span class="no_translation">Access</span> 應用程式應重新啟動。</p>
+
+<p>若要傳送 <span class="no_translation">Microsoft Office</span> 項目至遠端 Bluetooth 裝置：</p>
+
+<ol>
+ <li>根據您使用的 <span class="no_translation">Microsoft Office</span> 版本和 <span class="no_translation">Microsoft Office</span> 應用程式而定，在子功能表<b class="translation_from_microsoft">共用</b>、<b class="translation_from_microsoft">儲存並傳送</b>、或<b class="translation_from_microsoft">儲存並發佈</b>中選擇<b class="translation_from_wording">傳送至 Bluetooth</b> 動作。請參閱 <span class="translation_from_microsoft">Microsoft Office 說明</span>，瞭解如何執行此項工作。隨即會出現<b class="translation_from_wording">傳送檔案至 Bluetooth 裝置精靈</b>。</li>
+ <li><b>傳送檔案至藍牙裝置精靈</b>開啟之後，請選擇檔案傳送的目的地藍牙裝置，然後按一下<b>下一步</b>按鈕。</li>
+ <li>隨即會出現檔案傳輸進度視窗，並且會將項目傳送至選擇的 Bluetooth 裝置。傳輸完成之後，您會立即接獲通知。</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>從「Windows 檔案總管」將檔案傳送至藍牙裝置</h3>
+
+<p>若要從「Windows 檔案總管」將檔案傳送至藍牙裝置：</p>
+
+<ol>
+ <li>在「Windows 檔案總管」中以滑鼠右鍵按一下檔案圖示，並選擇操作功能表中之<b>傳送到</b>項目中的 <b>藍牙</b> 動作。隨即會出現<b>傳送檔案至藍牙裝置精靈</b>。</li>
+ <li><b>傳送檔案至藍牙裝置精靈</b>開啟之後，請選擇檔案傳送的目的地藍牙裝置，然後按一下<b>下一步</b>按鈕。</li>
+ <li>隨即會出現檔案傳輸進度視窗，並且會將所選檔案傳送至選擇的藍牙裝置。傳輸完成之後，您會立即接獲通知。</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>從服務視窗將檔案傳送至藍牙裝置</h3>
+
+<p>若要從服務視窗將檔案傳送至藍牙裝置：</p>
+
+<ol>
+ <li>按一下服務視窗中的<b>傳送檔案</b>連結。隨即會出現「開啟」對話視窗。</li>
+ <li>選擇清單中的檔案，然後按一下<b>開啟</b>按鈕。隨即會出現<b>傳送檔案至藍牙裝置精靈</b>。</li>
+ <li><b>傳送檔案至藍牙裝置精靈</b>開啟後，按一下<b>下一步</b>按鈕。</li>
+ <li>隨即會出現檔案傳輸進度視窗，並且會將所選檔案傳送至選擇的藍牙裝置。傳輸完成之後，您會立即接獲通知。</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>從藍牙裝置接收檔案</h2>
+
+<p>當另一個藍牙裝置使用 BIP 或 OPP 將檔案傳輸至您的電腦時，會出現<b>正在接收檔案</b>視窗，並在其中提供傳入檔案的預設目的地路徑。</p>
+
+<p><b><i>提示：</i></b>BIP 通常用於從行動裝置將圖片傳送至電腦。OPP 則用於傳送所有其他類型的檔案。</p>
+
+<p>您可以在 [正在接收檔案] 視窗中，變更用來儲存傳入檔案/圖片的預設目的地資料夾。若要這麼做，請遵循下列步驟：</p>
+
+<ol>
+ <li>按一下<b>瀏覽</b>並選擇想要的資料夾視窗。</li>
+ <li>選取路徑之後，按一下 <b>[接受]</b> 開始傳輸檔案。</li>
+ <li>若要拒絕傳入檔案，請按一下<b>拒絕</b>。</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>從藍牙裝置修改檔案和資料夾</h3>
+
+<p>支援 FTP 設定檔的藍牙裝置可以針對位於本機共用資料夾中的檔案和資料夾進行變更。如果遠端裝置嘗試覆寫、重新命名或刪除共用內容，則會要求特殊權限。而且，在執行前述變更之前會出現<b>權限要求</b>視窗。在<b>權限要求</b>視窗中會有下列選項：</p>
+
+<ul>
+ <li>選擇<b>僅本次允許</b>，並按一下<b>確定</b>，以暫時允許藍牙裝置執行變更。</li>
+ <li>選擇<b>永遠允許此裝置</b>，並按一下<b>確定</b>，以在藍牙裝置配對時允許藍牙裝置執行變更。</li>
+ <li>若要暫時拒絕藍牙裝置執行變更，請按一下<b>取消</b>。</li>
+</ul>
+
+<p>如果欲傳輸的檔案未變更任何現有的檔案，則傳輸該檔案時應不會出現<b>權限要求</b>視窗。</p>
+
+<h3><a name="_receiving_files_progress">接收檔案進度</a></h3>
+
+<p>當其他藍牙裝置開始傳輸檔案到您的電腦且該傳輸已被接受時，如出現下列情形，則<b>正在接收</b>視窗可能會出現：</p>
+
+<ul>
+ <li>如果遠端裝置為 BIP 或 OPP 用戶端，則<b>正在接收</b>視窗即會出現。</li>
+ <li>如果遠端裝置為 FTP 用戶端，則可遵循使用者指南中<a href="cont_conf_bt.htm#_shared_folder_configuration">資料夾共用設定</a>一節所述的步驟來設定<b>正在接收</b>視窗外觀。</li>
+</ul>
+
+<p><b>正在接收</b>視窗會顯示每個檔案的下列資訊：</p>
+
+<ul>
+ <li>傳輸狀態 (接收成功、未接收、傳輸進行中等)</li>
+ <li>目前正在傳輸之檔案的傳輸鮑率</li>
+ <li>接收成功的檔案大小</li>
+</ul>
+
+</body>
+
+</html>

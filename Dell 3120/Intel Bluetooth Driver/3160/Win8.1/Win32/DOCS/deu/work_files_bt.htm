@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Dateiübertragung über Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Dateiübertragung über Bluetooth<sup>&reg;</sup></h1>
+
+<p>Geben Sie lokale Dateien und Ordner auf Ihrem Computer für andere Bluetooth-Geräte frei, übertragen Sie jeden beliebigen Dateityp zwischen Ihrem Computer und Bluetooth-Geräten, erstellen oder löschen Sie sogar Dateien und Ordner auf einem Bluetooth-Gerät, und verwenden Sie den Assistenten „Senden an“ im Menü von Microsoft Office zum Senden von Dateien an Bluetooth-Geräte.</p>
+
+<p>Unterstützte Profile und Rollen:</p>
+
+<ul>
+ <li>File Transfer Profile (FTP) (Client/Server)</li>
+ <li>Profil für Bilddaten (Basic Imaging Profile, BIP) (Initiator/Responder)</li>
+ <li>Objekt-Push-Profil (Object Push Profile, OPP) (Client/Server)</li>
+</ul>
+
+<p>Unterstützte Funktionen:</p>
+
+<ul>
+ <li>Object Exchange (OBEX) 1.5 Single Response Mode (SRM)</li>
+ <li>Microsoft Office-Integration für das Object Push-Profil (OPP) (Client)</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Freigabe eines lokalen Ordners für andere Bluetooth-Geräte</h2>
+
+<p>Ordner auf Ihrem Computer können für andere Bluetooth-Geräte freigegeben werden. Folgen Sie dazu den Anweisungen im Abschnitt <a href="cont_conf_bt.htm#_shared_folder_configuration">Einstellungen für die Ordnerfreigabe</a> dieser Benutzeranleitung.</p>
+
+<p>Der freigegebene Ordner wird als Stammverzeichnis für die Dateiübertragung über FTP verwendet und als Standardverzeichnis zum Dateiempfang über OPP und BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Durchsuchen der freigegebenen Ordner eines Remote-Bluetooth-Geräts</a></h2>
+
+<p>Wenn eine Verbindung zu einem Bluetooth-Gerät besteht, das FTP unterstützt, kann ein standardmäßiges Explorer-ähnliches Fenster verwendet werden, um normale Dateivorgänge zwischen dem Gerät und dem Computer durchzuführen, ganz so, als wenn sie lokal vorgenommen werden würden:</p>
+
+<ul>
+ <li>Dateien und Ordner durchsuchen</li>
+ <li>Dateien und Ordner übertragen</li>
+ <li>Dateien und Ordner löschen</li>
+ <li>Dateien und Ordner umbenennen <br><b><i>Hinweis:</i></b> Wenn das Remote-Gerät FTP-Server V1.2 oder älter unterstützt, dann können nur leere Ordner umbenannt werden.</li>
+ <li>Ordner erstellen</li>
+</ul>
+
+<p>So greifen Sie vom Fenster „Dienste“ auf den freigegebenen Ordner auf dem Remote-Gerät zu:</p>
+
+<ol>
+ <li>Öffnen Sie das Fenster „Dienste“ (siehe <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Hinzufügen und Herstellen einer Verbindung mit einem neuen Bluetooth<sup>&reg;</sup>-Gerät</a>).</li>
+ <li>Klicken Sie auf <b>Remote-Ordner durchsuchen</b>.</li>
+</ol>
+
+<p>So greifen Sie vom Windows Explorer auf den freigegebenen Ordner auf dem Remote-Gerät zu:</p>
+
+<ol>
+ <li>Öffnen Sie den Ordner <b>Computer</b>.</li>
+ <li>Klicken Sie auf das Symbol mit dem Namen des Remote-Geräts.</li>
+</ol>
+
+<p><b><i>Hinweis:</i></b> Wenn das Remote-Gerät temporär als FTP-Server verwendet werden kann (d. h. die Verwendung als FTP-Server kann aktiviert oder deaktiviert werden), dann ist keine Verknüpfung zum Ordner <b>Computer</b> erforderlich. Verwenden Sie in diesem Fall das Fenster „Dienste“ des Remote-Geräts.</p>
+
+<p><b><i>Hinweis:</i></b> Während des Datenaustauschs verlangt das Remote-Gerät eventuell eine Kennworteingabe. In diesem Fall muss für beide Geräte das gleiche Kennwort eingegeben werden, damit eine Verbindung hergestellt werden kann. Wenn die Kennwörter nicht übereinstimmen, wird die Verbindung unterbrochen.</p>
+
+<h2><a name="_sending_files">Dateien an ein Bluetooth-Gerät senden</a></h2>
+
+<p>Die Funktion <b>Die Datei an Bluetooth-Installationassistenten senden</b> wird verwendet, um Dateien an das Remote-Bluetooth-Gerät zu senden. Der Assistent kann nur eine einzige Datei versenden, es können jedoch mehrere Assistenten gleichzeitig ausgeführt werden. Es wird eine Schrittfolge angezeigt, um das Ziel-Remote-Gerät auszuwählen und die Datei zu versenden. Die Funktion <b>Die Datei an Bluetooth-Installationassistenten senden</b> kann in verschiedenen Szenarien ausgeführt werden.</p>
+
+<p><b><i>Hinweis:</i></b> Normalerweise wird das Protokoll BIP verwendet, um Bilder von einem Mobilgerät auf einen Computer zu übertragen. Das Protokoll OPP kann zum Übertragen aller anderen Dateitypen verwendet werden. Die Funktion <b>Die Datei an Bluetooth-Installationassistenten senden</b> unterstützt beide Profile.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Senden von Dateien von Microsoft Office an ein Bluetooth-Gerät</h3>
+
+<p>Folgenden <span class="no_translation">Microsoft Office</span>-Versionen werden unterstützt:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Folgende <span class="no_translation">Microsoft Office</span>-Anwendungen und -Elemente werden unterstützt:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">Dokument</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">Arbeitsmappe</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">Präsentation</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">Datenbank</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">Termin</span>, <span class="translation_from_microsoft">Kontakt</span>, <span class="translation_from_microsoft">Nachricht</span>, <span class="translation_from_microsoft">Notiz</span>, <span class="translation_from_microsoft">Aufgabe</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span>-Elemente werden automatisch gespeichert, bevor Sie an ein Remote-Bluetooth-Gerät gesendet werden können.</p>
+
+<p><b><i>Hinweis</i></b>: Wenn ein <span class="no_translation">Microsoft Office</span>-Element nicht gespeichert wurde, werden Sie in <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> und <span class="no_translation">PowerPoint</span> zum Speichern aufgefordert.</p>
+
+<p><b><i>Hinweis: </i></b>Wenn es sich bei einem <span class="no_translation">Microsoft Office</span>-Element um eine Datenbank handelt, die gerade erstellt wurde, muss die <span class="no_translation">Access</span>-Anwendung neu gestartet werden.</p>
+
+<p>So senden Sie ein <span class="no_translation">Microsoft Office</span>-Element an ein Remote-Bluetooth-Gerät</p>
+
+<ol>
+ <li>Wählen Sie abhängig von der von Ihnen verwendeten <span class="no_translation">Microsoft Office</span>-Version und <span class="no_translation">Microsoft-Office</span>-Anwendung <b class="translation_from_wording">An Bluetooth senden</b> im Untermenü <b class="translation_from_microsoft">Freigeben</b>, <b class="translation_from_microsoft">speichern und senden</b> oder <b class="translation_from_microsoft">Speichern und veröffentlichen</b> aus. Bitte lesen Sie in der <span class="translation_from_microsoft">Hilfe von Microsoft Office</span> nach, wie Sie dazu vorgehen. Das Fenster <b class="translation_from_wording">Assistent zum Senden von Dateien an ein Bluetooth-Gerät</b> wird angezeigt.</li>
+ <li>Wenn das Fenster <b>Die Datei an Bluetooth-Installationassistenten senden</b> angezeigt wird, wählen Sie das Bluetooth-Gerät aus, an das die Datei gesendet werden soll, und klicken Sie auf die Schaltfläche <b>Weiter</b>.</li>
+ <li>Das Statusfenster „Dateiübertragung“ wird angezeigt, und das Element wird an das ausgewählte Bluetooth-Gerät gesendet. Sie werden benachrichtigt, wenn die Dateiübertragung abgeschlossen ist.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Senden von Dateien von Windows Explorer an Bluetooth-Geräte</h3>
+
+<p>So senden Sie Dateien von Windows Explorer an ein Bluetooth-Gerät:</p>
+
+<ol>
+ <li>Klicken Sie im Windows Explorer mit der rechten Maustaste auf das Dateisymbol, und wählen Sie im Kontextmenü unter <b>Senden an</b> die Aktion <b>Bluetooth</b>. Das Fenster <b>Die Datei an Bluetooth-Installationassistenten senden</b> wird angezeigt.</li>
+ <li>Wenn das Fenster <b>Die Datei an Bluetooth-Installationassistenten senden</b> angezeigt wird, wählen Sie das Bluetooth-Gerät aus, an das die Datei gesendet werden soll, und klicken Sie auf die Schaltfläche <b>Weiter</b>.</li>
+ <li>Es wird ein Fenster eingeblendet, das den Fortschritt der Dateiübertragung anzeigt, und die ausgewählte Datei wird an das ausgewählte Bluetooth-Gerät gesendet. Sobald die Übertragung abgeschlossen ist, erhalten Sie eine Benachrichtigung.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Senden von Dateien aus dem Fenster Dienste an Bluetooth-Geräte</h3>
+
+<p>So senden Sie Dateien aus dem Fenster Dienste an ein Bluetooth-Gerät:</p>
+
+<ol>
+ <li>Klicken Sie im Fenster Dienste auf den Link <b>Datei senden</b>. Das Dialogfeld <b>Öffnen</b> wird angezeigt.</li>
+ <li>Wählen Sie eine Datei aus der Liste, und klicken Sie auf die Schaltfläche <b>Öffnen</b>. Das Fenster <b>Die Datei an Bluetooth-Installationassistenten senden</b> wird angezeigt.</li>
+ <li>Wenn das Fenster <b>Die Datei an Bluetooth-Installationassistenten senden</b> angezeigt wird, klicken Sie auf die Schaltfläche <b>Weiter</b>.</li>
+ <li>Es wird ein Fenster eingeblendet, das den Fortschritt der Dateiübertragung anzeigt, und die ausgewählte Datei wird an das ausgewählte Bluetooth-Gerät gesendet. Sobald die Übertragung abgeschlossen ist, erhalten Sie eine Benachrichtigung.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Empfangen von Dateien von Bluetooth-Geräten</h2>
+
+<p>Wenn ein anderes Bluetooth-Gerät eine Dateiübertragung zu Ihrem Computer mittels BIP oder OPP startet, wird das Fenster <b>Dateien werden empfangen</b> angezeigt, das den standardmäßigen Zielpfad für eingehende Dateien angibt.</p>
+
+<p><b><i>Hinweis:</i></b> Normalerweise wird das Protokoll BIP verwendet, um Bilder von einem Mobilgerät auf einen Computer zu übertragen. Das Protokoll OPP kann zum Übertragen aller anderen Dateitypen verwendet werden.</p>
+
+<p>Im Fenster „Empfangen von Dateien“ können Sie das Standardverzeichnis ändern, in dem eingehende Dateien bzw. Bilder gespeichert werden. Gehen Sie hierzu wie folgt vor:</p>
+
+<ol>
+ <li>Klicken Sie auf <b>Durchsuchen</b>, und wählen Sie den gewünschten Ordner aus.</li>
+ <li>Wenn Sie ein Verzeichnis ausgewählt haben, klicken Sie auf <b>Annehmen</b>, um die Dateiübertragung zu starten.</li>
+ <li>Um eine eingehende Datei abzulehnen, klicken Sie auf <b>Ablehnen</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Dateien und Ordner von einem Bluetooth-Gerät ändern</h3>
+
+<p>Ein Bluetooth-Gerät, das das FTP-Profil unterstützt, kann Änderungen an den Dateien und Ordnern in dem lokalen, freigegebenen Ordner vornehmen. Wenn das Remote-Gerät versucht, freigegebenen Inhalt zu überschreiben, umzubenennen oder zu löschen, wird dafür eine gesonderte Berechtigung angefordert. Bevor diese Änderungen vorgenommen werden können, wird das Fenster <b>Berechtigungsanfrage</b> angezeigt. Im Fenster Berechtigungsanfrage stehen Ihnen die folgenden Optionen zur Verfügung:</p>
+
+<ul>
+ <li>Wählen Sie <b>Nur dieses Mal zulassen</b>, und klicken Sie auf <b>OK</b>, um die Änderungen von einem Bluetooth-Gerät temporär zu genehmigen.</li>
+ <li>Wählen Sie <b>Dieses Gerät immer zulassen</b>, und klicken Sie auf <b>OK</b>, um die Änderungen von einem Bluetooth-Gerät zu genehmigen, solange eine Kopplung zu diesem Bluetooth-Gerät besteht.</li>
+ <li>Um die Änderungen von einem Bluetooth-Gerät temporär abzulehnen, klicken Sie auf <b>Abbrechen</b>.</li>
+</ul>
+
+<p>Wenn durch die Übertragung der Datei keine vorhandene Datei geändert wird, dann wird sie übertragen, ohne dass das Fenster <b>Berechtigungsanfrage</b> angezeigt wird.</p>
+
+<h3><a name="_receiving_files_progress">Fortschritt beim Empfangen der Dateien</a></h3>
+
+<p>Wenn ein anderes Bluetooth-Gerät eine Dateiübertragung zu Ihrem Computer startet, und die Übertragung zugelassen wird, wird eventuell das Fenster <b>Empfang</b> angezeigt:</p>
+
+<ul>
+ <li>Wenn das Remote-Gerät ein BIP- oder OPP-Client ist, dann wird das Fenster <b>Empfang</b> angezeigt.</li>
+ <li>Wenn das Remote-Gerät ein FTP-Client ist, dann kann das Erscheinungsbild des Fensters <b>Empfang</b> konfiguriert werden, indem Sie die Schritte ausführen, die in diesem Benutzerhandbuch im Abschnitt <a href="cont_conf_bt.htm#_shared_folder_configuration">Einstellungen für die Ordnerfreigabe</a> beschrieben werden.</li>
+</ul>
+
+<p>Das Fenster <b>Empfang</b> zeigt für jede Datei die folgenden Informationen an:</p>
+
+<ul>
+ <li>Übertragungsstatus (erfolgreich empfangen, nicht empfangen, wird übertragen usw.)</li>
+ <li>Die Übertragungs-Baud-Rate für die Dateien, die momentan übertragen werden</li>
+ <li>Die Größe der Dateien, die erfolgreich empfangen wurden</li>
+</ul>
+
+</body>
+
+</html>

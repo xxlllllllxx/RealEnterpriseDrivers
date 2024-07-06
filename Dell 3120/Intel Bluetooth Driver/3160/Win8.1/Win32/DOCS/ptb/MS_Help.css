@@ -1,0 +1,87 @@
+BODY {
+	color: #000000;
+	background-color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+	font-weight: normal;
+	font-style: normal;
+}
+
+P {
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+
+H1 {
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+H2 {
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+H3 {
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+H4 {
+	color: inherit;
+	background-color: inherit;
+	font-family: inherit;
+	font-size: 10pt;
+	font-weight: bold;
+}
+
+table {
+	border: none; 
+	margin-left: 0em;
+	table-layout: auto;
+	color: inherit;
+	background-color: inherit;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 10pt;
+}
+
+A:link {
+	color: #0000ff;
+	background-color: inherit;
+}
+
+A:visited {
+	color: #800080;
+	background-color: inherit;
+}
+
+ol {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	list-style-type: decimal;
+}
+
+ul {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	list-style-type: disc;
+}
+
+sup {
+	vertical-align: baseline;
+	position: relative;
+	top: -0.4em;
+}

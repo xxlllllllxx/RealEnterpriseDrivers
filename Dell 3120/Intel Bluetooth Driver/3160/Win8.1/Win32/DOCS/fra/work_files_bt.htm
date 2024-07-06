@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Transfert de fichiers via Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Transfert de fichiers via Bluetooth<sup>&reg;</sup></h1>
+
+<p>Partagez des fichiers et dossiers locaux sur votre ordinateur avec d'autres périphériques Bluetooth, transférez tout type de fichiers entre votre ordinateur et des périphériques Bluetooth, créez ou supprimez des fichiers et dossiers sur un périphérique Bluetooth et utilisez l'Assistant Envoyer vers de Microsoft Office pour envoyer des fichiers vers des périphériques Bluetooth.</p>
+
+<p>Profils et rôles pris en charge :</p>
+
+<ul>
+ <li>FTP (File Transfer Profil) (Client/Serveur)</li>
+ <li>BIP (Basic Imaging Profile, profil d'imagerie de base) (initiateur/répondeur)</li>
+ <li>OPP (Object Push Profile, profil d'envoi d'objets) (client/serveur)</li>
+</ul>
+
+<p>Fonctionnalités prises en charge :</p>
+
+<ul>
+ <li>OBEX (Object Exchange) 1.5 SRM (Single Response Mode)</li>
+ <li>Intégration Microsoft Office pour le client OPP (Object Push Profile)</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Partage d'un dossier local avec d'autres périphériques Bluetooth</h2>
+
+<p>Vous pouvez partager les dossiers de l'ordinateur avec d'autres périphériques Bluetooth en suivant les étapes décrites dans la section <a href="cont_conf_bt.htm#_shared_folder_configuration">Paramètres de partage de dossiers</a> de ce guide de l'utilisateur.</p>
+
+<p>Le dossier partagé est le dossier racine pour le transfert de fichiers via FTP et le dossier par défaut pour la réception des fichiers via OPP et BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Navigation dans le dossier partagé d'un périphérique Bluetooth distant</a></h2>
+
+<p>Lorsque l'ordinateur est connecté à un périphérique Bluetooth prenant en charge le protocole FTP, une fenêtre classique, telle que l'Explorateur Windows, peut être utilisée pour effectuer des opérations sur les fichiers entre le périphérique et l'ordinateur, aussi simplement qu'en utilisation locale :</p>
+
+<ul>
+ <li>Parcourir les fichiers et dossiers</li>
+ <li>Transférer des fichiers et des dossiers</li>
+ <li>Supprimer des fichiers et des dossiers</li>
+ <li>Renommer des fichiers et des dossiers <br><b><i>Remarque :</i></b> si le périphérique distant prend en charge les versions antérieures à la v1.2 du rôle serveur FTP, alors seuls les dossiers vides peuvent être renommés.</li>
+ <li>Créer des dossiers</li>
+</ul>
+
+<p>Pour accéder au dossier partagé sur le périphérique distant à partir de la fenêtre Service :</p>
+
+<ol>
+ <li>Ouvrez la fenêtre Services de l'appareil (reportez-vous à la section <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Ajout et connexion d'un nouveau périphérique Bluetooth<sup>&reg;</sup></a>).</li>
+ <li>Cliquez sur <b>Parcourir le dossier distant</b>.</li>
+</ol>
+
+<p>Pour accéder au dossier partagé sur le périphérique distant à partir de l'Explorateur Windows :</p>
+
+<ol>
+ <li>Ouvrez le dossier <b>Ordinateur</b>.</li>
+ <li>Cliquez sur l'icône portant le nom du périphérique distant.</li>
+</ol>
+
+<p><b><i>Remarque :</i></b> si le périphérique distant prend en charge le rôle serveur FTP temporaire (c.-à-d. que le rôle serveur FTP peut être activé ou désactivé), le lien peut être absent du dossier <b>Ordinateur</b>. Dans ce cas, utilisez la fenêtre Services du périphérique distant.</p>
+
+<p><b><i>Remarque :</i></b> au cours de l'échange de données, le périphérique distant peut demander un mot de passe. Dans ce cas, le même mot de passe doit être saisi sur les deux périphériques pour activer la connexion. Si les mots de passe ne sont pas identiques, la connexion est interrompue.</p>
+
+<h2><a name="_sending_files">Envoi de fichiers vers un périphérique Bluetooth</a></h2>
+
+<p><b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> permet d'envoyer des fichiers sur le périphérique Bluetooth distant. Il peut envoyer un seul fichier à la fois, mais il est possible de lancer plusieurs assistants simultanément. Une procédure est disponible pour la sélection du périphérique distant visé et du fichier à envoyer. <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> peut être utilisé dans plusieurs cas.</p>
+
+<p><b><i>Remarque :</i></b> généralement, le profil BIP est utilisé pour l'envoi des photos d'un périphérique portable vers un ordinateur. Le profil OPP est utilisé pour transférer tout autre type de fichiers. <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> prend en charge les deux types de profil.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Envoi de fichiers depuis Microsoft Office vers un périphérique Bluetooth</h3>
+
+<p>Les versions suivantes de <span class="no_translation">Microsoft Office</span> sont prises en charge :</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Les applications et éléments suivants de <span class="no_translation">Microsoft Office</span> sont pris en charge :</p>
+
+<ul>
+ <li><span class="no_translation">Word</span> : <span class="translation_from_microsoft">document</span></li>
+ <li><span class="no_translation">Excel</span> : <span class="translation_from_microsoft">classeur</span></li>
+ <li><span class="no_translation">PowerPoint</span> : <span class="translation_from_microsoft">présentation</span></li>
+ <li><span class="no_translation">Access</span> : <span class="translation_from_microsoft">base de données</span></li>
+ <li><span class="no_translation">Outlook</span> : <span class="translation_from_microsoft">rendez-vous</span>, <span class="translation_from_microsoft">contact</span>, <span class="translation_from_microsoft">message</span>, <span class="translation_from_microsoft">note</span>, <span class="translation_from_microsoft">tâche</span></li>
+</ul>
+
+<p>Les éléments <span class="no_translation">Microsoft Office</span> sont automatiquement enregistrés avant d'être envoyés à un périphérique Bluetooth distant.</p>
+
+<p><b><i>Remarque :</i></b> si un élément <span class="no_translation">Microsoft Office</span> n'a jamais été enregistré, alors un message vous invitant à l'enregistrer apparaîtra dans <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> et <span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>Remarque :</i></b> si un élément <span class="no_translation">Microsoft Office</span> qui vient juste d'être créé est la base de données, alors l'application <span class="no_translation">Access</span> devra être redémarrée.</p>
+
+<p>Pour envoyer un élément <span class="no_translation">Microsoft Office</span> à un périphérique Bluetooth distant :</p>
+
+<ol>
+ <li>Selon la version de <span class="no_translation">Microsoft Office</span> et l'application <span class="no_translation">Microsoft Office</span> utilisées, sélectionnez l'action <b class="translation_from_wording">Envoyer par Bluetooth</b> dans le sous-menu <b class="translation_from_microsoft">Partager</b>, <b class="translation_from_microsoft">Enregistrer et envoyer</b> ou <b class="translation_from_microsoft">Enregistrer et publier</b>. Consultez l'<span class="translation_from_microsoft">aide Microsoft Office</span> pour obtenir des instructions sur la manière d'effectuer cette opération. L'<b class="translation_from_wording">Assistant Envoyer un fichier vers un périphérique Bluetooth</b> s'affiche.</li>
+ <li>Une fois <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> lancé, sélectionnez le périphérique Bluetooth pour envoyer le fichier, puis cliquez sur le bouton <b>Suivant</b>.</li>
+ <li>La fenêtre de progression du transfert de fichier apparaîtra, et l'élément sera envoyé au périphérique Bluetooth sélectionné. Vous recevrez un message de confirmation une fois le transfert terminé.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Envoi de fichiers depuis l'Explorateur Windows vers un périphérique Bluetooth</h3>
+
+<p>Pour envoyer des fichiers de l'Explorateur Windows à un périphérique Bluetooth :</p>
+
+<ol>
+ <li>Dans l'Explorateur Windows, cliquez avec le bouton droit de la souris sur l'icône du fichier, puis sélectionnez l'action <b>Bluetooth</b> dans l'élément <b>Envoyer vers</b> du menu contextuel. <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> s'affiche.</li>
+ <li>Une fois <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> lancé, sélectionnez le périphérique Bluetooth pour envoyer le fichier, puis cliquez sur le bouton <b>Suivant</b>.</li>
+ <li>La fenêtre de progression du transfert de fichiers apparaît et le fichier sélectionné est envoyé au périphérique Bluetooth sélectionné. Vous êtes averti dès que le transfert est terminé.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Envoi de fichiers depuis la fenêtre Services d'un périphérique Bluetooth</h3>
+
+<p>Pour envoyer des fichiers depuis la fenêtre Services d'un périphérique Bluetooth :</p>
+
+<ol>
+ <li>Cliquez sur le lien <b>Envoyer un fichier</b> dans la fenêtre Services. La fenêtre Ouvrir s'affiche.</li>
+ <li>Choisissez un fichier dans la liste et cliquez sur le bouton <b>Ouvrir</b>. <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> s'affiche.</li>
+ <li>Une fois <b>Envoyer un fichier à l'assistant de périphérique Bluetooth</b> lancé, cliquez sur le bouton <b>Suivant</b>.</li>
+ <li>La fenêtre de progression du transfert de fichiers apparaît et le fichier sélectionné est envoyé au périphérique Bluetooth sélectionné. Vous êtes averti dès que le transfert est terminé.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Réception de fichiers depuis un périphérique Bluetooth</h2>
+
+<p>Lorsqu'un autre périphérique Bluetooth lance un transfert de fichiers vers votre ordinateur à l'aide des profils BIP ou OPP, la fenêtre <b>Réception de fichiers</b> s'affiche et vous fournit par défaut un chemin d'accès au(x) fichier(s) entrant(s).</p>
+
+<p><b><i>Remarque :</i></b> généralement, le profil BIP est utilisé pour l'envoi des photos d'un périphérique portable vers un ordinateur. Le profil OPP est utilisé pour transférer tout autre type de fichiers.</p>
+
+<p>Dans la fenêtre Réception de fichiers, vous pouvez modifier le dossier de destination par défaut dans lequel sont sauvegardés les fichiers/images entrants. Pour ce faire, suivez les étapes ci-dessous :</p>
+
+<ol>
+ <li>Cliquez sur <b>Parcourir</b> et sélectionnez le dossier souhaité.</li>
+ <li>Après avoir sélectionné un chemin, cliquez sur <b>Accepter</b> pour démarrer le transfert de fichier.</li>
+ <li>Pour rejeter un fichier entrant, cliquez sur <b>Rejeter</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Modification de fichiers et de dossiers sur un périphérique Bluetooth</h3>
+
+<p>Les périphériques Bluetooth prenant en charge les profils FTP peuvent apporter des modifications aux fichiers et aux dossiers présents dans le dossier partagé local. Des autorisations spéciales sont demandées si le périphérique distant tente d'écraser, de renommer ou de supprimer du contenu partagé. La fenêtre <b>Demande d'autorisation</b> s'affiche avant que ces changements puissent être effectués. Dans la fenêtre <b>Demande d'autorisation</b>, vous avez accès aux options suivantes :</p>
+
+<ul>
+ <li>Sélectionnez <b>Autoriser cette fois uniquement</b> et cliquez sur <b>OK</b> pour permettre temporairement à un périphérique Bluetooth d'effectuer des modifications.</li>
+ <li>Sélectionnez <b>Toujours autoriser ce périphérique</b> et cliquez sur <b>OK</b> pour permettre à un périphérique Bluetooth d'effectuer des modifications dès qu'il est couplé.</li>
+ <li>Pour empêcher temporairement un périphérique Bluetooth d'effectuer des modifications, cliquez sur <b>Annuler</b>.</li>
+</ul>
+
+<p>Si le fichier à transférer ne modifie aucun fichier existant, il est transféré sans que la fenêtre <b>Demande d'autorisation</b> ne s'affiche.</p>
+
+<h3><a name="_receiving_files_progress">Progression de la réception de fichiers</a></h3>
+
+<p>Lorsqu'un autre périphérique Bluetooth lance un transfert de fichiers sur votre ordinateur et que le transfert est accepté, il se peut que la fenêtre <b>Réception</b> s'affiche :</p>
+
+<ul>
+ <li>Si le périphérique distant est un client BIP ou OPP, la fenêtre <b>Réception</b> s'affiche.</li>
+ <li>Si le périphérique distant est un client FTP, l'affichage de la fenêtre <b>Réception</b> peut être configuré en suivant la procédure décrite dans la section <a href="cont_conf_bt.htm#_shared_folder_configuration">Paramètres de partage de dossiers</a> du présent manuel d'utilisation.</li>
+</ul>
+
+<p>La fenêtre <b>Réception</b> contient les informations suivantes pour chaque fichier :</p>
+
+<ul>
+ <li>l'état du transfert (reçu avec succès, non reçu, transfert en cours, etc.)</li>
+ <li>le débit en bauds pour les fichiers en cours de transfert</li>
+ <li>la taille des fichiers reçus avec succès</li>
+</ul>
+
+</body>
+
+</html>

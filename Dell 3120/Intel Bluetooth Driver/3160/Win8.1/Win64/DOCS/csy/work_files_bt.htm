@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1250">
+    <title>Přenos souborů přes Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Přenos souborů přes Bluetooth<sup>&reg;</sup></h1>
+
+<p>Sdílejte místní soubory a složky ve svém počítači s ostatními zařízeními Bluetooth, přenášejte jakékoli typy souborů mezi počítačem a zařízeními Bluetooth, vytvářejte nebo odstraňujte soubory a složky v zařízení Bluetooth a používejte Průvodce odesláním souboru z menu sady Microsoft Office pro zasílání souborů do zařízení Bluetooth.</p>
+
+<p>Podporované profily a role:</p>
+
+<ul>
+ <li>Profil FTP (File Transfer Profile) (klient/server)</li>
+ <li>Basic Imaging Profile (BIP) (iniciátor/respondér)</li>
+ <li>Object Push Profile (OPP) (klient/server)</li>
+</ul>
+
+<p>Podporované funkce:</p>
+
+<ul>
+ <li>OBEX (Object Exchange) 1.5 v režimu SRM (Single Response Mode)</li>
+ <li>Integrace sady Microsoft Office pro klienta profilu OPP (Object Push Profile)</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Sdílení místních složek s jinými zařízeními Bluetooth</h2>
+
+<p>Složky v počítači lze sdílet s ostatními zařízeními Bluetooth postupem popsaným v části <a href="cont_conf_bt.htm#_shared_folder_configuration">Nastavení sdílení složek</a> v této uživatelské příručce.</p>
+
+<p>Sdílená složka slouží jako kořenová složka pro přenos souborů přes FTP a jako výchozí složka pro příjem souborů přes OPP a BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Procházení sdílené složky vzdáleného zařízení Bluetooth</a></h2>
+
+<p>Při připojení k zařízení Bluetooth, které podporuje protokol FTP, lze pomocí standardního okna podobného průzkumníku provádět obvyklé operace se soubory mezi zařízením a počítačem stejným způsobem, jako když se provádějí místně:</p>
+
+<ul>
+ <li>Procházení souborů a složek</li>
+ <li>Přenos souborů a složek</li>
+ <li>Odstraňování souborů a složek</li>
+ <li>Přejmenování souborů a složek <br><b><i>Poznámka:</i></b> Pokud vzdálené zařízení podporuje roli serveru FTP nižší, než je verze v1.2, poté lze přejmenovávat jen prázdné složky.</li>
+ <li>Vytváření složek</li>
+</ul>
+
+<p>Postup pro přístup ke sdílené složce na vzdáleném zařízení v okně Služby:</p>
+
+<ol>
+ <li>Otevřete okno Služby daného zařízení (viz část <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Přidání a připojení nového zařízení Bluetooth<sup>&reg;</sup></a>).</li>
+ <li>Klikněte na možnost <b>Procházet vzdálenou složku</b>.</li>
+</ol>
+
+<p>Postup pro přístup ke sdílené složce na vzdáleném zařízení v Průzkumníkovi Windows:</p>
+
+<ol>
+ <li>Otevřete složku <b>Počítač</b>.</li>
+ <li>Klikněte na ikonu s názvem vzdáleného zařízení.</li>
+</ol>
+
+<p><b><i>Poznámka:</i></b> Pokud vzdálené zařízení podporuje roli serveru FTP dočasně (tedy roli serveru FTP lze zapnout a vypnout), poté může odkaz ve složce <b>Počítač</b> chybět. V takovém případě použijte okno Služby vzdáleného zařízení.</p>
+
+<p><b><i>Poznámka:</i></b> Během výměny dat může vzdálené zařízení vyžadovat zadání hesla. V takovém případě musí být hesla zadaná na obou zařízeních stejná. Pokud se hesla neshodují, spojení bude ukončeno.</p>
+
+<h2><a name="_sending_files">Odeslání souborů do zařízení Bluetooth</a></h2>
+
+<p><b>Průvodce odesíláním souboru do zařízení Bluetooth</b> slouží k odesílání souborů do vzdáleného zařízení Bluetooth. Průvodce dokáže odeslat jen jeden soubor, ale současně lze spustit více průvodců. K dispozici je sled kroků k výběru cílového vzdáleného zařízení a souboru, který se má odeslat. <b>Průvodce odesíláním souboru do zařízení Bluetooth</b> lze spustit v několika možných scénářích.</p>
+
+<p><b><i>Poznámka:</i></b> Profil BIP se obvykle používá pro zasílání obrázků z mobilního zařízení do počítače. Profil OPP se používá k zasílání všech ostatních typů souborů. <b>Průvodce odesíláním souboru do zařízení Bluetooth</b> podporuje oba profily.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Odesílání souborů z aplikace sady Microsoft Office do zařízení Bluetooth</h3>
+
+<p>Podporovány jsou následující verze sady <span class="no_translation">Microsoft Office</span>:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Podporovány jsou následující aplikace a položky sady <span class="no_translation">Microsoft Office</span>:</p>
+
+<ul>
+ <li>Aplikace <span class="no_translation">Word</span>: <span class="translation_from_microsoft">dokument</span></li>
+ <li>Aplikace <span class="no_translation">Excel</span>: <span class="translation_from_microsoft">sešit</span></li>
+ <li>Aplikace <span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">prezentace</span></li>
+ <li>Aplikace <span class="no_translation">Access</span>: <span class="translation_from_microsoft">databáze</span></li>
+ <li>Aplikace <span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">schůzka</span>, <span class="translation_from_microsoft">kontakt</span>, <span class="translation_from_microsoft">zpráva</span>, <span class="translation_from_microsoft">poznámka</span>, <span class="translation_from_microsoft">úkol</span></li>
+</ul>
+
+<p>Položka aplikace <span class="no_translation">Microsoft Office</span> je před tím, než může být odeslána do vzdáleného zařízení Bluetooth, automaticky uložena.</p>
+
+<p><b><i>Poznámka:</i></b> Pokud nikdy předtím nebyla položka sady <span class="no_translation">Microsoft Office</span> uložena, zobrazí se zpráva odpovědního systému v aplikaci <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> a <span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>Poznámka:</i></b> Pokud je položka sady <span class="no_translation">Microsoft Office</span> databáze a byla právě vytvořena, musí být aplikace <span class="no_translation">Access</span> restartována.</p>
+
+<p>Odeslání položky sady <span class="no_translation">Microsoft Office</span> do vzdáleného zařízení Bluetooth:</p>
+
+<ol>
+ <li>V závislosti na vámi používané verzi sady <span class="no_translation">Microsoft Office</span> a aplikaci <span class="no_translation">Microsoft Office</span> vyberte možnost <b class="translation_from_wording">Odeslat do Bluetooth</b> v podnabídce <b class="translation_from_microsoft">Sdílet</b>, <b class="translation_from_microsoft">uložit a odeslat</b> nebo <b class="translation_from_microsoft">Uložit a publikovat</b>. Popis postupu naleznete v části <span class="translation_from_microsoft">Nápověda sady Microsoft Office</span>. Objeví se <b class="translation_from_wording">Průvodce odesíláním souborů do zařízení Bluetooth</b>.</li>
+ <li>Po otevření <b>Průvodce odesíláním souboru do zařízení Bluetooth</b> vyberte zařízení Bluetooth, do kterého chcete soubor odeslat, a klikněte na tlačítko <b>Další</b>.</li>
+ <li>Zobrazí se okno průběhu odesílání souboru a položka bude odeslána do zvoleného zařízení Bluetooth. Po dokončení se zobrazí oznámení o dokončení přenosu.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Odesílání souborů z aplikace Průzkumník Windows do zařízení Bluetooth</h3>
+
+<p>Postup odeslání souborů z aplikace Průzkumník Windows do zařízení Bluetooth:</p>
+
+<ol>
+ <li>V Průzkumníku Windows klikněte pravým tlačítkem myši na ikonu souboru a v kontextové nabídce vyberte v položce <b>Odeslat do</b> akci <b>Bluetooth</b>. Objeví se <b>Průvodce odesíláním souboru do zařízení Bluetooth</b>.</li>
+ <li>Po otevření <b>Průvodce odesíláním souboru do zařízení Bluetooth</b> vyberte zařízení Bluetooth, do kterého chcete soubor odeslat, a klikněte na tlačítko <b>Další</b>.</li>
+ <li>Zobrazí se okno průběhu odesílání souboru a vybraný soubor bude odeslán do zvoleného zařízení Bluetooth. Po dokončení se zobrazí oznámení o dokončení přenosu.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Odesílání souborů z okna Služby do zařízení Bluetooth</h3>
+
+<p>Postup odeslání souborů z okna Služby do zařízení Bluetooth:</p>
+
+<ol>
+ <li>V okně Služby klikněte na odkaz <b>Odeslat soubor</b>. Zobrazí se dialogové okno Otevřít.</li>
+ <li>Vyberte soubor ze seznamu a klikněte na tlačítko <b>Otevřít</b>. Objeví se <b>Průvodce odesíláním souboru do zařízení Bluetooth</b>.</li>
+ <li>Po otevření <b>Průvodce odesíláním souboru do zařízení Bluetooth</b> klikněte na tlačítko <b>Další</b>.</li>
+ <li>Zobrazí se okno průběhu odesílání souboru a vybraný soubor bude odeslán do zvoleného zařízení Bluetooth. Po dokončení se zobrazí oznámení o dokončení přenosu.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Přijímání souborů ze zařízení Bluetooth</h2>
+
+<p>Pokud jiné zařízení Bluetooth zahájí přenos souboru do vašeho počítače pomocí profilu BIP nebo OPP, zobrazí se okno <b>Přijímání souborů</b> s výchozí cestou pro ukládání příchozích souborů.</p>
+
+<p><b><i>Poznámka:</i></b> Profil BIP se obvykle používá pro zasílání obrázků z mobilního zařízení do počítače. Profil OPP se používá k zasílání všech ostatních typů souborů.</p>
+
+<p>V okně Přijímání souborů můžete změnit výchozí cílovou složku, ve které jsou uloženy příchozí soubory a obrázky. Postupujte takto:</p>
+
+<ol>
+ <li>Klikněte na možnost <b>Procházet</b> a vyberte okno požadované složky.</li>
+ <li>Vyberte cestu a klepnutím na příkaz <b>Přijmout</b> spusťte přenos souborů.</li>
+ <li>Chcete-li přijetí souboru odmítnout, klikněte na možnost <b>Odmítnout</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Změna souborů a složek ze zařízení Bluetooth</h3>
+
+<p>Zařízení Bluetooth, které podporuje profil FTP, může provádět změny souborů a složek v místní sdílené složce. Pokud se vzdálené zařízení pokusí přepsat, přejmenovat nebo odstranit sdílený obsah, budou vyžadována zvláštní povolení. Než bude možné tyto změny provést, zobrazí se okno <b>Žádost o povolení</b>. V okně <b>Žádost o povolení</b> máte následující možnosti:</p>
+
+<ul>
+ <li>Když zvolíte možnost <b>Povolit pouze nyní</b> a kliknete na tlačítko <b>OK</b>, povolíte změny ze zařízení Bluetooth dočasně.</li>
+ <li>Když zvolíte možnost <b>Vždy povolit na tomto zařízení</b> a kliknete na tlačítko <b>OK</b>, povolíte změny ze zařízení Bluetooth po dobu spárování zařízení Bluetooth.</li>
+ <li>Chcete-li změny ze zařízení Bluetooth dočasně odmítnout, klikněte na tlačítko <b>Storno</b>.</li>
+</ul>
+
+<p>Pokud soubor, který má být přenesen, nezmění žádný stávající soubor, bude přenesen, aniž by se okno <b>Žádost o povolení</b> zobrazilo.</p>
+
+<h3><a name="_receiving_files_progress">Průběh příjmu souborů</a></h3>
+
+<p>Když jiné zařízení Bluetooth zahájí přenos souboru do vašeho počítače a přenos bude přijat, může se zobrazit okno <b>Příjem</b>:</p>
+
+<ul>
+ <li>Pokud je vzdálené zařízení klientem BIP nebo OPP, zobrazí se okno <b>Příjem</b>.</li>
+ <li>Pokud je vzdálené zařízení klientem FTP, poté lze zobrazení okna <b>Příjem</b> konfigurovat podle kroků popsaných v sekci <a href="cont_conf_bt.htm#_shared_folder_configuration">Nastavení sdílení složky</a> této uživatelské příručky.</li>
+</ul>
+
+<p>Okno <b>Příjem</b> zobrazuje následující informace pro každý soubor:</p>
+
+<ul>
+ <li>Stav přenosu (úspěšně přijat, nepřijato, přenos probíhá atd.)</li>
+ <li>Přenosová rychlost pro soubory, které jsou právě přenášeny</li>
+ <li>Velikost souborů, které byly úspěšně přijaty</li>
+</ul>
+
+</body>
+
+</html>

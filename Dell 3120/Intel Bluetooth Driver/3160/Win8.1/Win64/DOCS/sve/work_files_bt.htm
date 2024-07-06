@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Filöverföring med Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Filöverföring med Bluetooth<sup>&reg;</sup></h1>
+
+<p>Du kan dela lokala filer och mappar på datorn med andra Bluetooth-enheter, överföra alla sorters filer mellan datorn och Bluetooth-enheter, till och med skapa eller ta bort filer eller mappar på en Bluetooth-enhet och använda guiden Skicka till i Microsoft Office-menyn för att skicka filer till Bluetooth-enheter.</p>
+
+<p>Profiler och roller som stöds:</p>
+
+<ul>
+ <li>File Transfer Profile (FTP) (klient/server)</li>
+ <li>Basic Imaging Profile (BIP) (initierare/responder)</li>
+ <li>OPP (Object Push Profile) (klient/server)</li>
+</ul>
+
+<p>Funktioner som kan användas:</p>
+
+<ul>
+ <li>Object Exchange (OBEX) 1.5 Single Response Mode (SRM)</li>
+ <li>Microsoft Office-integrering för Object Push Profile (OPP) klient</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Dela lokal mapp med andra Bluetooth-enheter</h2>
+
+<p>Du kan dela mappar på datorn med andra Bluetooth-enheter genom att följa anvisningarna i avsnittet <a href="cont_conf_bt.htm#_shared_folder_configuration">Inställningar för mappdelning</a> i denna användarhandbok.</p>
+
+<p>En delad mapp används som rotmapp för filöverföring via FTP och som standardmapp för mottagning av filer via OPP och BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Bläddra i delad mapp på en Bluetooth-fjärrenhet</a></h2>
+
+<p>När datorn är ansluten till en Bluetooth-enhet med funktioner för FTP kan du utföra vanliga filåtgärder mellan enheten och datorn, via ett fönster som liknar ett vanligt Utforskaren-fönster, precis som du skulle utfört dem lokalt:</p>
+
+<ul>
+ <li>Bläddra bland filer och mappar</li>
+ <li>Överför filer och mappar</li>
+ <li>Ta bort filer och mappar</li>
+ <li>Ändra namn på filer och mappar <br><b><i>Obs!</i></b> Om fjärrenheten har funktioner för en FTP-serverroll lägre än v1.2 går det endast att ändra namn på tomma mappar.</li>
+ <li>Skapa mappar</li>
+</ul>
+
+<p>Så här får du åtkomst till fjärrenheten från tjänstfönstret:</p>
+
+<ol>
+ <li>Öppna fönstret Tjänster (mer information finns i <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Lägg till och anslut till en ny Bluetooth<sup>&reg;</sup>-enhet</a>).</li>
+ <li>Klicka på <b>Bläddra i fjärrmapp</b>.</li>
+</ol>
+
+<p>Så här får du åtkomst till fjärrenheten från Utforskaren i Windows:</p>
+
+<ol>
+ <li>Öppna mappen <b>Dator</b>.</li>
+ <li>Klicka på ikonen med fjärrenhetsnamnet.</li>
+</ol>
+
+<p><b><i>Obs!</i></b> Om fjärrenheten tillfälligt har funktioner för en FTP-serverroll (dvs. att FTP-serverrollen kan aktiveras och inaktiveras) kan det hända att länken i mappen <b>Dator</b> saknas. I så fall använder du tjänstfönstret i fjärrenheten.</p>
+
+<p><b><i>Obs!</i></b> Under datautväxlingen kan det hända att du måste ange ett lösenord för fjärrenheten, och samma lösenord måste då anges för både fjärrenheten och datorn för att anslutningen ska aktiveras. Om lösenorden inte stämmer överens avbryts anslutningen.</p>
+
+<h2><a name="_sending_files">Skicka filer till en Bluetooth-enhet</a></h2>
+
+<p><b>Guiden Skicka fil till Bluetooth-enhet</b> används till att skicka filer till Bluetooth-fjärrenheten. Det går endast att skicka en fil med guiden men det går att starta flera guider samtidigt. Du går igenom en följd steg där du väljer målfjärrenhet och fil som ska skickas. <b>Guiden Skicka fil till Bluetooth-enhet</b> kan köras i flera olika scenarier.</p>
+
+<p><b><i>Obs!</i></b> Vanligen används BIP-profilen för att skicka bilder från en mobiltelefon till en dator. OPP-profilen används för att skicka alla andra typer av filer. <b>Guiden Skicka fil till Bluetooth-enhet</b> kan användas med båda profilerna.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Skicka filer från Microsoft Office till en Bluetooth-enhet</h3>
+
+<p>Följande versioner av <span class="no_translation">Microsoft Office</span> kan användas:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Följande <span class="no_translation">Microsoft Office</span>-program och -objekt kan användas:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">dokument</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">arbetsbok</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">presentation</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">databas</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">möte</span>, <span class="translation_from_microsoft">kontakt</span>, <span class="translation_from_microsoft">meddelande</span>, <span class="translation_from_microsoft">anteckning</span>, <span class="translation_from_microsoft">uppgift</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span>-objektet sparas automatiskt innan det kan skickas till en Bluetooth-fjärrenhet.</p>
+
+<p><b><i>Obs!</i></b> Om <span class="no_translation">Microsoft Office</span>-objektet inte sparades visas en uppmaning om att spara det i <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> eller <span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>Obs!</i></b> Om <span class="no_translation">Microsoft Office</span>-objektet är en databas som precis skapades ska programmet <span class="no_translation">Access</span> startas om.</p>
+
+<p>Så här skickar du ett <span class="no_translation">Microsoft Office</span>-objekt till en Bluetooth-fjärrenhet:</p>
+
+<ol>
+ <li>Beroende på vilken version av <span class="no_translation">Microsoft Office</span> och <span class="no_translation">Microsoft Office</span> du använder väljer du åtgärden <b class="translation_from_wording">Skicka till Bluetooth</b> i undermenyn <b class="translation_from_microsoft">Dela</b>, <b class="translation_from_microsoft">Spara och skicka</b> eller <b class="translation_from_microsoft">Spara och publicera</b>. I <span class="translation_from_microsoft">hjälpen till Microsoft Office</span> finns anvisningar för hur du gör det. Guiden <b class="translation_from_wording">Skicka fil till Bluetooth-enhet</b> visas.</li>
+ <li>När <b>Guiden Skicka fil till Bluetooth-enhet</b> har öppnats väljer du vilken Bluetooth-enhet filen ska skickas till och klickar på knappen <b>Nästa</b>.</li>
+ <li>Fönstret för filöverföringsstatus öppnas och objektet skickas till den valda Bluetooth-enheten. När överföringen är klar visas ett meddelande.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Skicka filer från Utforskaren till en Bluetooth-enhet</h3>
+
+<p>Så här skickar du filer från Utforskaren till en Bluetooth-enhet:</p>
+
+<ol>
+ <li>I Utforskaren högerklickar du på filikonen och väljer åtgärden <b>Bluetooth</b> för alternativet <b>Skicka till</b> i snabbmenyn. <b>Guiden Skicka fil till Bluetooth-enhet</b> visas.</li>
+ <li>När <b>Guiden Skicka fil till Bluetooth-enhet</b> har öppnats väljer du vilken Bluetooth-enhet filen ska skickas till och klickar på knappen <b>Nästa</b>.</li>
+ <li>Fönstret filöverföringsstatus öppnas och den valda filen skickas till den valda Bluetooth-enheten. När överföringen är klar visas ett meddelande.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Skicka filer från fönstret Tjänster till en Bluetooth-enhet</h3>
+
+<p>Så här skickar du filer från fönstret Tjänster till en Bluetooth-enhet:</p>
+
+<ol>
+ <li>Klicka på länken <b>Skicka fil</b> i fönstret Tjänster. Dialogfönstret Öppna visas.</li>
+ <li>Välj en fil i listan och klicka på knappen <b>Öppna</b>. <b>Guiden Skicka fil till Bluetooth-enhet</b> visas.</li>
+ <li>När <b>Guiden Skicka fil till Bluetooth-enhet</b> har öppnats klickar på knappen <b>Nästa</b>.</li>
+ <li>Fönstret filöverföringsstatus öppnas och den valda filen skickas till den valda Bluetooth-enheten. När överföringen är klar visas ett meddelande.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Ta emot filer från en Bluetooth-enhet</h2>
+
+<p>När en annan Bluetooth-enhet inleder en filöverföring till datorn (via BIP- eller OPP-profilen) öppnas fönstret <b>Tar emot filer</b>, där en standardsökväg för inkommande filer visas.</p>
+
+<p><b><i>Obs!</i></b> Vanligen används BIP-profilen för att skicka bilder från en mobiltelefon till en dator. OPP-profilen används för att skicka alla andra typer av filer.</p>
+
+<p>I fönstret Ta emot filer kan du ändra standardmålmappen där inkommande filer/bilder sparas. För att göra detta, följ dessa steg:</p>
+
+<ol>
+ <li>Klicka på <b>Bläddra</b> och välj mappfönster.</li>
+ <li>När en sökväg har valts, klicka på <b>Acceptera</b> för att inleda filöverföringen.</li>
+ <li>Klicka på <b>Avvisa</b> för att avvisa en inkommande fil.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Ändra filer och mappar från en Bluetooth-enhet</h3>
+
+<p>Om du har en Bluetooth-enhet som har funktioner för FTP-profilen kan du göra ändringar av filer och mappar i den lokala delade mappen. Specialbehörighet krävs om du vill skriva över, ändra namn på eller ta bort delat innehåll från fjärrenheten. Fönstret <b>Behörighetsbegäran</b> visas innan ändringarna kan genomföras. I fönstret <b>Behörighetsbegäran</b> visas följande alternativ:</p>
+
+<ul>
+ <li>Välj <b>Tillåt endast den här gången</b> och klicka på <b>OK</b> om du vill att ändringar från en Bluetooth-enhet tillfälligt ska tillåtas.</li>
+ <li>Välj <b>Tillåt alltid den här enheten</b> och klicka på <b>OK</b> om du vill tillåta ändringar från en Bluetooth-enhet när en Bluetooth-enhet är parkopplad.</li>
+ <li>Om du vill att ändringar från en Bluetooth-enhet tillfälligt ska avvisas klickar du på <b>Avbryt</b>.</li>
+</ul>
+
+<p>Om den fil som ska överföras inte innebär några ändringar av någon befintlig fil görs överföringen utan att fönstret <b>Behörighetsbegäran</b> visas.</p>
+
+<h3><a name="_receiving_files_progress">Förlopp för filmottagning</a></h3>
+
+<p>När en annan Bluetooth-enhet inleder en filöverföring till datorn och överföringen accepteras kan det hända att fönstret <b>Tar emot</b> öppnas.</p>
+
+<ul>
+ <li>Om fjärrenheten är en BIP- eller OPP-klient visas fönstret <b>Tar emot</b>.</li>
+ <li>Om fjärrenheten är en FTP-klient kan du konfigurera visningsinställningarna för fönstret <b>Tar emot</b> med hjälp av anvisningarna i avsnittet <a href="cont_conf_bt.htm#_shared_folder_configuration">Inställningar för mappdelning</a> i den här användarhandboken.</li>
+</ul>
+
+<p>I fönstret <b>Tar emot</b> visas följande information för alla filer:</p>
+
+<ul>
+ <li>Överföringsstatus (mottagen, ej mottagen, överföring pågår osv.)</li>
+ <li>Baudhastighet för överföring för filer där överföring pågår</li>
+ <li>Storlek på filer som har tagits emot</li>
+</ul>
+
+</body>
+
+</html>

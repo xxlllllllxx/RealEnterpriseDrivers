@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1254">
+    <title>Bluetooth&reg; Üzerinden Dosya Aktarımı</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Bluetooth<sup>&reg;</sup> Üzerinden Dosya Aktarımı</h1>
+
+<p>Bilgisayarınızda bulunan yerel dosya ve klasörleri diğer Bluetooth aygıtlarıyla paylaşın, her tür dosyayı bilgisayarınız ve Bluetooth aygıtlarınız arasında aktarın, hatta Bluetooth aygıtında dosya ve klasörler oluşturun veya silin ve dosyaları Bluetooth aygıtlarına göndermek için Microsoft Office menüsünden Gönderme Sihirbazı'nı kullanın.</p>
+
+<p>Desteklenen profiller ve roller:</p>
+
+<ul>
+ <li>Dosya Aktarım Profili (FTP) (İstemci/Sunucu)</li>
+ <li>Temel Görüntüleme Profili (BIP) (Başlatıcı/Yanıtlayıcı)</li>
+ <li>Nesne İtme Profili (OPP) (İstemci/Sunucu)</li>
+</ul>
+
+<p>Desteklenen özellikler:</p>
+
+<ul>
+ <li>Object Exchange (OBEX) 1.5 Tek Yanıt Modu (SRM)</li>
+ <li> Nesne İtme Profili (OPP) istemcisi için Microsoft Office tümleştirmesi</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Diğer Bluetooth Cihazları Yerel Klasör Paylaşma</h2>
+
+<p>Bilgisayarınızdaki klasörler bu Kullanım Kılavuzu'nun <a href="cont_conf_bt.htm#_shared_folder_configuration">Klasör Paylaşma Ayarları</a> bölümünde açıklanan adımlar izlenerek diğer Bluetooth cihazlarıyla paylaşılabilir.</p>
+
+<p>Paylaşılan klasör, FTP ile dosya aktarımı için kök dosya olarak ve OPP ve BIP ile dosyaları almak için varsayılan klasör olarak kullanılır.</p>
+
+<h2><a name="_browsing_shared_folder">Uzak Bluetooh Aygıtının Paylaşılan Klasörüne Göz Atma</a></h2>
+
+<p>FTP destekleyen bir Bluetooth aygıtına bağlanıldığında, aygıt ile bilgisayar arasında normal dosya işlemlerini tıpkı yerel olarak gerçekleştirirken olduğu gibi Windows Gezgini benzeri standart bir pencere kullanılabilir:</p>
+
+<ul>
+ <li>Dosya ve klasörlere göz atma</li>
+ <li>Dosya ve klasörleri aktarma</li>
+ <li>Dosya ve klasörleri silme</li>
+ <li>Dosya ve klasörleri yeniden adlandırma <br><b><i>Not:</i></b> Uzak aygıt FTP sunucusu rolünü v1.2 ve önceki sürümlerinde destekliyorsa yalnızca boş klasörler yeniden adlandırılabilir.</li>
+ <li>Klasör oluşturma</li>
+</ul>
+
+<p>Servis Penceresi'nden uzak aygıt üzerindeki paylaşılan klasöre erişmek için:</p>
+
+<ol>
+ <li>Aygıta ait Servisler penceresini açın (bkz. <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Yeni Bir Bluetooth<sup>&reg;</sup> Cihazı Ekleme ve Yeni Bir Bluetooth Cihazına Bağlanma</a>).</li>
+ <li><b>Uzaktaki Klasöre Gözat</b>'ı tıklatın.</li>
+</ol>
+
+<p>Windows Gezgini'nden uzak aygıt üzerindeki paylaşılan klasöre erişmek için:</p>
+
+<ol>
+ <li><b>Bilgisayarım</b> klasörünü açın.</li>
+ <li>Uzak aygıtın adını taşıyan simgeye tıklayın.</li>
+</ol>
+
+<p><b><i>Not:</i></b> Uzak aygıt FTP sunucusu rolünü geçici olarak destekliyorsa (örn. FTP sunucusu rolü açılabilir veya kapatılabilir) <b>Bilgisayarım</b> klasöründe bağlantı olmayabilir. Bu durumda uzak aygıtın Servisler penceresini kullanın.</p>
+
+<p><b><i>Not:</i></b> Veri değişimi sırasında uzak aygıt parola isteyebilir. Böyle bir durumda, bağlantıyı etkinleştirmek için her iki aygıtın da aynı parolayı girmesi gerekir. Parolalar eşleşmezse bağlantı sona erer.</p>
+
+<h2><a name="_sending_files">Dosyaları Bluetooth Aygıtına Gönderme</a></h2>
+
+<p><b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> dosyaları uzak Bluetooth aygıtına göndermek için kullanılır. Sihirbaz tek bir dosya gönderebilir ama aynı anda birden fazla sihirbaz başlatılabilir. Hedef uzak aygıtı seçmek ve dosyayı göndermek için takip etmeniz gereken birkaç adım vardır. <b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> birkaç farklı senaryoda çalıştırılabilir.</p>
+
+<p><b><i>Not:</i></b> BIP tipik olarak, bir mobil aygıttan bilgisayara resim göndermek için kullanılır. Diğer tüm dosya tiplerini göndermek için OPP kullanılır. <b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> her iki profili de destekler.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Microsoft Office'ten Bir Bluetooth Cihazına Dosya Gönderme</h3>
+
+<p>Aşağıdaki <span class="no_translation">Microsoft Office</span> sürümleri desteklenir:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Aşağıdaki <span class="no_translation">Microsoft Office</span> uygulamaları ve öğeleri desteklenir:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">belge</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">çalışma kitabı</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">sunum</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">veritabanı</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">randevu</span>, <span class="translation_from_microsoft">kişi</span>, <span class="translation_from_microsoft">mesaj</span>, <span class="translation_from_microsoft">not</span>, <span class="translation_from_microsoft">görev</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> öğesi, uzak bir Bluetooth cihazına gönderilmeden önce otomatik olarak kaydedilir.</p>
+
+<p><b><i>Not:</i></b> <span class="no_translation">Microsoft Office</span> öğesi hiç kaydedilmemişse kaydetme istemi <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> ve <span class="no_translation">PowerPoint</span>'te gösterilir.</p>
+
+<p><b><i>Not:</i></b> <span class="no_translation">Microsoft Office</span> öğesi, veritabanındaysa ve yeni oluşturulmuşsa <span class="no_translation">Access</span> uygulaması yeniden başlatılır.</p>
+
+<p>Bir <span class="no_translation">Microsoft Office</span> öğesini uzak bir Bluetooth cihazına göndermek için:</p>
+
+<ol>
+ <li>Kullandığınız <span class="no_translation">Microsoft Office</span> sürümüne ve <span class="no_translation">Microsoft Office</span> uygulamasına bağlı olarak <b class="translation_from_microsoft">Paylaş</b>, <b class="translation_from_microsoft">Kaydet ve Gönder</b> veya <b class="translation_from_microsoft">Kaydet ve Yayınla</b> alt menülerinde <b class="translation_from_wording">Bluetooth'a Gönder</b> eylemini seçin. Bunu nasıl yapmanız gerektiğine ilişkin yönergeler için lütfen <span class="translation_from_microsoft">Microsoft Office Yardımı</span>'na danışın. <b class="translation_from_wording">Dosyayı Bluetooth Aygıtına Gönderme Sihirbazı</b> görüntülenir.</li>
+ <li><b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> açıldıktan sonra dosyayı göndermek için Bluetooth aygıtını seçerek <b>İleri</b> düğmesine tıklayın.</li>
+ <li>Dosya aktarımı ilerleme penceresi görüntülenir ve öğe seçilen Bluetooth cihazına gönderilir. Aktarım tamamlandığında bildirim alırsınız.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Windows Gezgini'nden Bir Bluetooth Cihazına Dosya Gönderme</h3>
+
+<p>Windows Gezgini'nden Bir Bluetooth Cihazına dosya göndermek için:</p>
+
+<ol>
+ <li>Windows Gezgini'nde, dosya simgesine sağ tıklayarak bağlam menüsündeki <b>Gönder</b> öğesinde <b>Bluetooth</b> eylemini seçin. <b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> görüntülenir.</li>
+ <li><b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> açıldıktan sonra dosyayı göndermek için Bluetooth aygıtını seçerek <b>İleri</b> düğmesine tıklayın.</li>
+ <li>Dosya aktarımı ilerleme durumu penceresi görüntülenir ve seçilen dosya, seçilen Bluetooth cihazına gönderilir. Aktarım tamamlandıktan sonra size bilgi verilir.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Hizmetler Penceresinden Bir Bluetooth Cihazına Dosya Gönderme</h3>
+
+<p>Hizmetler penceresinden bir Bluetooth Cihazına dosya göndermek için:</p>
+
+<ol>
+ <li>Hizmetler penceresindeki <b>Dosya Gönder</b> bağlantısını tıklatın. Aç iletişim penceresi görüntülenir.</li>
+ <li>Listeden bir dosya seçerek <b>Aç</b> düğmesine tıklayın. <b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> görüntülenir.</li>
+ <li><b>Bluetooth Cihazına Dosya Gönderme Sihirbazı</b> açıldıktan sonra <b>İleri</b> düğmesine tıklayın.</li>
+ <li>Dosya aktarımı ilerleme durumu penceresi görüntülenir ve seçilen dosya, seçilen Bluetooth cihazına gönderilir. Aktarım tamamlandıktan sonra size bilgi verilir.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Bluetooth Cihazından Dosya Alma</h2>
+
+<p>Bir başka Bluetooth aygıtı BIP/OPP kullanarak bilgisayarınıza bir dosya aktarımı başlattığında, gelen dosyalar için varsayılan hedef yolunun sağlandığı <b>Dosyalar Alınıyor</b> penceresi görüntülenir.</p>
+
+<p><b><i>Not:</i></b> BIP tipik olarak, bir mobil aygıttan bilgisayara resim göndermek için kullanılır. Diğer tüm dosya tiplerini göndermek için OPP kullanılır.</p>
+
+<p>Dosyalar Alınıyor penceresinde, gelen dosyaların/resimlerin saklandığı varsayılan hedef klasörü değiştirebilirsiniz. Bunu yapabilmek için şu adımları izleyin:</p>
+
+<ol>
+ <li><b>Gözat</b>'ı tıklatın ve istediğiniz klasör penceresini seçin.</li>
+ <li>Bir yol seçildikten sonra, dosya aktarımını başlatmak için <b>Kabul Et</b> düğmesini tıklatın.</li>
+ <li>Bir gelen dosyayı reddetmek için <b>Reddet</b>'i tıklatın.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Bluetooth Aygıtından Alınan Dosyaları ve Klasörleri Değiştirme</h3>
+
+<p>FTP profilini destekleyen bir Bluetooth aygıtı yerel paylaşılan klasördeki dosya ve klasörlerde değişiklikler yapabilir. Uzak aygıt paylaşılan içeriğin üzerine yazmayı veya paylaşılan içeriği yeniden adlandırmayı ya da silmeyi denerse özel izinler istenir. Bu değişikliklerin yapılabilmesi için önce <b>İzin isteği</b> penceresinin görüntülenmesi gerekir. <b>İzin isteği</b> penceresinde şu seçenekler sunulur:</p>
+
+<ul>
+ <li>Bluetooth aygıtından yapılacak değişikliklere geçici olarak izin vermek için <b>Sadece bu seferlik izin ver</b>'i seçin ve <b>Tamam</b>'a tıklayın.</li>
+ <li>Bluetooth aygıtı eşleştirilmiş durumdayken Bluetooth aygıtından yapılacak değişikliklere izin vermek için <b>Bu cihaza her zaman izin ver</b>'i seçin ve <b>Tamam</b>'a tıklayın.</li>
+ <li>Bluetooth aygıtından yapılacak değişiklikleri geçici olarak reddetmek için <b>İptal</b>'i tıklatın.</li>
+</ul>
+
+<p>Aktarılacak dosya mevcut dosyaların hiçbirinde değişiklik yapmazsa bu dosya, <b>İzin isteği</b> penceresi görüntülenmeden aktarılır.</p>
+
+<h3><a name="_receiving_files_progress">Dosya İlerleme Durumu Alma</a></h3>
+
+<p>Başka bir Bluetooth aygıtı bilgisayarınıza bir dosya aktarımı başlattığında ve aktarım kabul edildiğinde, <b>Alma</b> penceresi görüntülenebilir:</p>
+
+<ul>
+ <li>Uzak aygıt BIP veya OPP istemcisiyse <b>Alma</b> penceresi görüntülenir.</li>
+ <li>Uzak aygıt FTP istemcisiyse <b>Alma</b> penceresinin görünümü bu Kullanıcı Kılavuzu'nun <a href="cont_conf_bt.htm#_shared_folder_configuration">Klasör Paylaşma Ayarları</a> bölümünde açıklanan adımlarla yapılandırılabilir.</li>
+</ul>
+
+<p><b>Alma</b> penceresi her dosya için aşağıdaki bilgileri gösterir:</p>
+
+<ul>
+ <li>Aktarım durumu (başarıyla alındı, alınmadı, aktarım devam ediyor, vb.)</li>
+ <li>Şu anda aktarılan dosyalar için aktarım baud hızı</li>
+ <li>Başarıyla alınan dosyaların boyutu</li>
+</ul>
+
+</body>
+
+</html>

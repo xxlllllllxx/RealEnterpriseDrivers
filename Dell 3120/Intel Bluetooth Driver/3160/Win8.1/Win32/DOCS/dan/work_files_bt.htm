@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Filoverførsel via Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Filoverførsel via Bluetooth<sup>&reg;</sup></h1>
+
+<p>Del lokale filer og mapper på din computer med andre Bluetooth-enheder, overfør en hvilken som helst filtype mellem din computer og Bluetooth-enheder, og opret eller slet filer og mapper på en Bluetooth-enhed, og brug guiden Send til i Microsoft Offices-menuen for at sende filer til Bluetooth-enheder.</p>
+
+<p>Understøttede profiler og roller:</p>
+
+<ul>
+ <li>Filoverførselsprofil (FTP) (klient/server)</li>
+ <li>BIP (Basic Imaging Profile) (initiator/besvarer)</li>
+ <li>OPP (Object Push Profile) (klient/server)</li>
+</ul>
+
+<p>Understøttede funktioner:</p>
+
+<ul>
+ <li>OBEX (Object Exchange) 1.5 SRM (Single Response Mode)</li>
+ <li>Microsoft Office-integration til OPP (Object Push Profile)-klient</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Del lokal mappe med andre Bluetooth-enheder</h2>
+
+<p>Mapper på din computer skal deles med andre Bluetooth-enheder ved at følge de trin, der er beskrevet i afsnittet <a href="cont_conf_bt.htm#_shared_folder_configuration">Indstillinger for fildeling</a> i denne brugervejledning.</p>
+
+<p>Den delte mappe anvendes som rodmappe til filoverførsel via FTP og som standardmappen til modtagelse af filer via OPP og BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Gennemse delt mappe på en Bluetooth-fjernenhed</a></h2>
+
+<p>Når du har oprettet forbindelse til en Bluetooth-enhed, der understøtter FTP, kan du benytte et almindeligt Stifinder-vindue til at gennemføre normale filoperationer mellem enheden og computeren, præcis som du ville gøre lokalt:</p>
+
+<ul>
+ <li>Gennemse filer og mapper</li>
+ <li>Overfør filer og mapper</li>
+ <li>Slet filer og mapper</li>
+ <li>Omdøb filer og mapper <br><b><i>Bemærk:</i></b> Hvis fjernenheden understøtter FTP-serverrolle før v1.2, kan kun de tomme mapper omdøbes.</li>
+ <li>Opret mapper</li>
+</ul>
+
+<p>Sådan får du adgang til den delte mappe på fjernenheden fra vinduet Tjeneste:</p>
+
+<ol>
+ <li>Åbn enhedens vindue Tjenester (se <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Tilføj og opret forbindelse til en ny Bluetooth<sup>&reg;</sup>-enhed</a>).</li>
+ <li>Klik på <b>Gennemse fjernmappe</b>.</li>
+</ol>
+
+<p>Du kan få adgang til den delte mappe på fjernenheden fra Windows Stifinder:</p>
+
+<ol>
+ <li>Åbn mappen <b>Computer</b>.</li>
+ <li>Klik på ikonet med navnet på fjernenheden.</li>
+</ol>
+
+<p><b><i>Bemærk:</i></b> Hvis fjernenheden understøtter FTP-serverrolle midlertidigt (dvs. FTP-serverrolle kan aktiveres eller deaktiveres), er linket i mappen <b>Computer</b> muligvis fraværende. I så tilfælde skal du benytte vinduet til fjernenhedens tjenester.</p>
+
+<p><b><i>Bemærk:</i></b> Under dataudveksling forespørger fjernenheden muligvis en adgangskode. I så tilfælde skal begge enheder have den samme adgangskode, før forbindelsen kan oprettes. Hvis adgangskoderne ikke passer til hinanden, afsluttes forbindelsen</p>
+
+<h2><a name="_sending_files">Send filer til en Bluetooth-enhed</a></h2>
+
+<p><b>Guiden Send fil til Bluetooth-enhed</b> benyttes til at sende filer til Bluetooth-fjernheden. Guiden kan sende enkelte filer, men der kan køres flere filer ad gangen. En række trin viser dig, hvordan du vælger den ønskede fjernenhed og den fil, der skal sendes. <b>Guiden Send fil til Bluetooth-enhed</b> kan køres i flere forskellige scenarier.</p>
+
+<p><b><i>Bemærk:</i></b> Typisk anvendes BIP til at sende billeder fra en mobilenhed til en computer.  OPP anvendes til at sende alle øvrige filtyper. <b>Guiden Send fil til Bluetooth-enhed</b> understøtter begge profiler.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Send filer fra Microsoft Office til en Bluetooth-enhed</h3>
+
+<p>Følgende versioner af <span class="no_translation">Microsoft Office</span> understøttes:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Følgende <span class="no_translation">Microsoft Office</span>-programmer og -elementer understøttes:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">dokument</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">projektmappe</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">præsentation</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">database</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">aftale</span>, <span class="translation_from_microsoft">kontakt</span>, <span class="translation_from_microsoft">meddelelse</span>, <span class="translation_from_microsoft">note</span>, <span class="translation_from_microsoft">opgave</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span>-element gemmes automatisk, før det kan sendes til en Bluetooth-fjernenhed.</p>
+
+<p><b><i>Bemærk:</i></b> Hvis <span class="no_translation">Microsoft Office</span>-elementet ikke blev gemt, vises meddelelsen Gem i <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> og <span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>Bemærk:</i></b> Hvis <span class="no_translation">Microsoft Office</span>-elementet er databasen, og den netop er blevet oprettet, skal du genstarte <span class="no_translation">Access</span>-programmet.</p>
+
+<p>Sådan sender du et <span class="no_translation">Microsoft Office</span>-element til en Bluetooth-fjernenhed:</p>
+
+<ol>
+ <li>Afhængig af versionen af <span class="no_translation">Microsoft Office</span>, og det <span class="no_translation">Microsoft Office</span>-program, du bruger, skal du vælge handlingen <b class="translation_from_wording">Send til Bluetooth</b> i undermenuen <b class="translation_from_microsoft">Del</b>, <b class="translation_from_microsoft">Gem og send</b> eller <b class="translation_from_microsoft">Gem og publicer</b>. Se hjælpen til <span class="translation_from_microsoft">Microsoft Office</span> for at få oplysninger herom. <b class="translation_from_wording">Guiden Send fil til Bluetooth-enhed</b> åbnes.</li>
+ <li>Når <b>Guiden Send fil til Bluetooth-enhed</b> åbnes, skal du vælge den Bluetooth-enhed, som filen skal sende til, og klikke på knappen <b>Næste</b>.</li>
+ <li>Statusvinduet for overførslen vises, og elementet sendes til den valgte Bluetooth-enhed. Du får besked, når overførslen er afsluttet.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Send filer fra Windows Stifinder til en Bluetooth-enhed</h3>
+
+<p>Sådan sender du filer fra Windows Stifinder til en Bluetooth-enhed:</p>
+
+<ol>
+ <li>I Windows Stifinder skal du højreklikke på filikonet og vælge handlingen <b>Bluetooth</b> i elementet <b>Send til</b> i kontekstmenuen. <b>Guiden Send fil til Bluetooth-enhed</b> åbnes.</li>
+ <li>Når <b>Guiden Send fil til Bluetooth-enhed</b> åbnes, skal du vælge den Bluetooth-enhed, som filen skal sende til, og klikke på knappen <b>Næste</b>.</li>
+ <li>Vinduet med status for filoverførsel vises, og den valgte fil sendes til den valgte Bluetooth-enhed. Du modtager besked, når filoverførslen er blevet fuldført.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Send filer fra vinduet Tjenester til en Bluetooth-enhed</h3>
+
+<p>Sådan sender du filer fra vinduet Tjenester til en Bluetooth-enhed:</p>
+
+<ol>
+ <li>Klik på linket <b>Send fil</b> i vinduet Tjenester. Vinduet Åbn dialog vises.</li>
+ <li>Vælg en fil på listen, og klik på knappen <b>Åbn</b>. <b>Guiden Send fil til Bluetooth-enhed</b> åbnes.</li>
+ <li>Når <b>Guiden Send fil til Bluetooth-enhed</b> åbnes, skal du klikke på knappen <b>Næste</b>.</li>
+ <li>Vinduet med status for filoverførsel vises, og den valgte fil sendes til den valgte Bluetooth-enhed. Du modtager besked, når filoverførslen er blevet fuldført.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Modtag filer fra en Bluetooth-enhed</h2>
+
+<p>Når en anden Bluetooth-enhed indleder en filoverførsel til din computer ved brug af profilen BIP eller OPP, vises vinduet <b>Modtager filer</b>, og du får mulighed for at angive en standarddestinationssti til indgående fil(er).</p>
+
+<p><b><i>Bemærk:</i></b> Typisk anvendes BIP til at sende billeder fra en mobilenhed til en computer. OPP anvendes til at sende alle øvrige filtyper.</p>
+
+<p>I vinduet Modtager filer kan du ændre standarddestinationsmappen, hvor indgående filer/billeder gemmes. Dette gøres på følgende måde:</p>
+
+<ol>
+ <li>Klik på <b>Gennemse</b>, og vælg det ønskede mappevindue.</li>
+ <li>Når en sti er valgt, skal du klikke på <b>Accepter</b> for at starte filoverførslen.</li>
+ <li>Afvis en indgående fil ved at klikke på <b>Afvis</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Rediger filer og mapper fra en Bluetooth-enhed</h3>
+
+<p>En Bluetooth-enhed, der understøtter FTP-profil, kan foretage ændringer i filer og mapper i den lokalt delte mappe. Der forespørges særlige tilladelser, hvis fjernenheden forsøger på at overskrive, omdøbe eller slette delt indhold. Vinduet <b>Anmodning om tilladelse</b> vises, før disse ændringer kan udføres. I vinduet <b>Anmodning om tilladelse</b> har du følgende valgmuligheder:</p>
+
+<ul>
+ <li>Vælg <b>Tillad kun én gang</b>, og klik på <b>OK</b> for at tillade ændringer fra en Bluetooth-enhed midlertidigt.</li>
+ <li>Vælg <b>Tillad altid denne enhed</b>, og klik på <b>OK</b> for at tillade ændringer fra en Bluetooth-enhed, når der er oprettet parring med en Bluetooth-enhed.</li>
+ <li>Nægt ændringer fra en Bluetooth-enhed midlertidigt ved at klikke på <b>Annuller</b>.</li>
+</ul>
+
+<p>Hvis den fil, der skal overføres, ikke ændrer nogen eksisterende fil, skal den overføres uden visning af vinduet <b>Anmodning om tilladelse</b>.</p>
+
+<h3><a name="_receiving_files_progress">Status for modtagelse af filer</a></h3>
+
+<p>Når en anden Bluetooth-enhed indleder en filoverførsel til din computer, og overførslen accepteres, vises vinduet <b>Modtager</b> muligvis:</p>
+
+<ul>
+ <li>Hvis fjernenheden er BIP- eller OPP-klient, vises vinduet <b>Modtager</b> muligvis.</li>
+ <li>Hvis fjernenheden er FTP-klient, kan visningen af vinduet <b>Modtager</b> konfigureres igennem følgende trin som beskrevet i <a href="cont_conf_bt.htm#_shared_folder_configuration">Indstillinger for fildeling</a> i denne brugervejledning.</li>
+</ul>
+
+<p>Vinduet <b>Modtager</b> viser følgende oplysninger for hver enkelt fil:</p>
+
+<ul>
+ <li>Overførselsstatus (modtaget, ikke modtaget, overførsel i gang m.v.)</li>
+ <li>Baud-hastigheden for de filer, der i øjeblikket overføres</li>
+ <li>Størrelsen på de filer, der blev modtaget</li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=EUC-KR">
+    <title>Bluetooth® 를 통한 파일 전송</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Bluetooth<sup>&reg;</sup> 를 통한 파일 전송</h1>
+
+<p>컴퓨터의 로컬 파일 및 폴더를 다른 Bluetooth 장치와 공유하고, 컴퓨터와 Bluetooth 장치 간에 모든 형식의 파일을 전송하고, Bluetooth 장치에서 파일 및 폴더를 생성하거나 삭제할 수도 있으며, Microsoft Office 메뉴에서 보내기 마법사를 사용하여 파일을 Bluetooth 장치로 보낼 수 있습니다.</p>
+
+<p>지원되는 프로필 및 역할은 다음과 같습니다.</p>
+
+<ul>
+ <li>FTP(File Transfer Profile)(클라이언트/서버)</li>
+ <li>기본 이미징 프로필(BIP)(개시자/응답자)</li>
+ <li>개체 푸시 프로필(OPP)(클라이언트/서버)</li>
+</ul>
+
+<p>지원되는 기능:</p>
+
+<ul>
+ <li>OBEX(Object Exchange) 1.5 SRM(Single Response Mode)</li>
+ <li>OPP(Object Push Profile) 클라이언트에 대한 Microsoft Office 통합</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>다른 Bluetooth 장치와 로컬 폴더 공유</h2>
+
+<p>이 사용 설명서의 <a href="cont_conf_bt.htm#_shared_folder_configuration">폴더 공유 설정</a> 섹션에 설명되어 있는 단계에 따라 컴퓨터의 폴더를 다른 Bluetooth 장치와 공유할 수 있습니다.</p>
+
+<p>공유 폴더는 FTP를 통한 파일 전송에 대해 루트 폴더로 사용되며, OPP 및 BIP를 통한 파일 수신에 대해 기본 폴더로 사용됩니다.</p>
+
+<h2><a name="_browsing_shared_folder">원격 Bluetooth 장치의 공유 폴더 찾아보기</a></h2>
+
+<p>FTP를 지원하는 Bluetooth 장치에 연결되어 있는 경우, 표준 탐색기와 유사한 창을 사용해 로컬에서와 같이 장치와 컴퓨터 사이에서 일반 파일 작업을 실행합니다.</p>
+
+<ul>
+ <li>파일 및 폴더 찾아보기</li>
+ <li>파일 및 폴더 전송</li>
+ <li>파일 및 폴더 삭제</li>
+ <li>파일 및 폴더 이름 바꾸기 <br><b><i>참고:</i></b> 원격 장치에서 v1.2보다 낮은 FTP 서버 역할을 지원하는 경우 빈 폴더만 이름을 바꿀 수 있습니다.</li>
+ <li>폴더 만들기</li>
+</ul>
+
+<p>서비스 창에서 원격 장치의 공유 폴더에 액세스하려면 다음과 같이 합니다.</p>
+
+<ol>
+ <li>장치의 서비스 창 열기(<a href="star_new_devi.htm#_start_working_new_bluetooth_device">새 Bluetooth<sup>&reg;</sup> 장치 추가 및 연결</a> 참조).</li>
+ <li><b>원격 폴더 찾아보기</b> 클릭.</li>
+</ol>
+
+<p>Windows 탐색기에서 원격 장치의 공유 폴더에 액세스하려면 다음과 같이 합니다.</p>
+
+<ol>
+ <li><b>컴퓨터</b> 폴더를 엽니다.</li>
+ <li>원격 장치 이름의 아이콘을 클릭합니다.</li>
+</ol>
+
+<p><b><i>참고:</i></b> 원격 장치에서 FTP 서버 역할을 일시적으로 지원하는 경우(예: FTP 서버 역할을 켜거나 끌 수 있음), <b>컴퓨터</b> 폴더에 링크가 없을 수 있습니다. 이 경우 원격 장치 서비스 창을 사용하십시오.</p>
+
+<p><b><i>참고:</i></b> 데이터 교환 도중 원격 장치에서 비밀번호를 요청할 수 있습니다. 그럴 경우 연결을 활성화하기 위해 두 장치에 모두 같은 비밀번호를 입력해야 합니다. 비밀번호가 일치하지 않는 경우 연결이 종료됩니다.</p>
+
+<h2><a name="_sending_files">Bluetooth 장치로 파일 보내기</a></h2>
+
+<p>원격 Bluetooth 장치로 파일을 전송하기 위해 <b>Bluetooth 장치로 파일 보내기 마법사</b>가 사용됩니다. 마법사는 단일 파일을 전송할 수 있지만, 여러 마법사가 동시에 실행될 수 있습니다. 대상 원격 장치 및 전송할 파일을 선택하기 위한 단계가 제공됩니다. <b>Bluetooth 장치로 파일 보내기 마법사</b>는 여러 경우에 실행될 수 있습니다.</p>
+
+<p><b><i>참고:</i></b> 일반적으로 BIP는 모바일 장치에서 컴퓨터로 사진을 전송할 때 사용됩니다. OPP는 모든 종류의 파일을 전송할 때 사용됩니다. <b>Bluetooth 장치로 파일 보내기 마법사</b>는 두 프로필을 모두 지원합니다.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Microsoft Office에서 Bluetooth 장치로 파일 보내기</h3>
+
+<p>지원되는 <span class="no_translation">Microsoft Office</span> 버전은 다음과 같습니다.</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>지원되는 <span class="no_translation">Microsoft Office</span> 애플리케이션과 항목은 다음과 같습니다.</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">문서</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">통합 문서</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">프레젠테이션</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">데이터베이스</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">약속</span>, <span class="translation_from_microsoft">연락처</span>, <span class="translation_from_microsoft">메시지</span>, <span class="translation_from_microsoft">메모</span>, <span class="translation_from_microsoft">작업</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> 항목은 원격 Bluetooth 장치로 보내기 전에 자동으로 저장됩니다.</p>
+
+<p><b><i>참고:</i></b> <span class="no_translation">Microsoft Office</span> 항목을 저장하지 않은 경우에는 <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> 및 <span class="no_translation">PowerPoint</span>에서 저장 여부를 묻는 메시지가 표시됩니다.</p>
+
+<p><b><i>참고:</i></b> <span class="no_translation">Microsoft Office</span> 항목이 데이터베이스이고 방금 작성한 경우에는 <span class="no_translation">Access</span> 애플리케이션이 다시 시작될 수 있습니다.</p>
+
+<p><span class="no_translation">Microsoft Office</span> 항목을 원격 Bluetooth 장치로 보내는 방법:</p>
+
+<ol>
+ <li>사용하는 <span class="no_translation">Microsoft Office</span> 및 <span class="no_translation">Microsoft Office</span> 애플리케이션 버전에 따라 <b class="translation_from_microsoft">공유</b>, <b class="translation_from_microsoft">저장 및 보내기</b> 또는 <b class="translation_from_microsoft">저장 및 게시</b> 하위 메뉴에서 <b class="translation_from_wording">Bluetooth로 보내기</b> 동작을 선택합니다. 자세한 방법은 <span class="translation_from_microsoft">Microsoft Office 도움말</span>을 참조하십시오. <b class="translation_from_wording">Bluetooth 장치로 파일 보내기 마법사</b>가 나타납니다.</li>
+ <li><b>Bluetooth 장치로 파일 보내기 마법사</b>가 열린 후 파일을 전송할 Bluetooth 장치를 선택하고 <b>다음</b> 버튼을 클릭합니다.</li>
+ <li>파일 전송 진행률 창이 나타나고 항목이 선택한 Bluetooth 장치로 전송됩니다. 전송이 완료되면 알림 메시지가 표시됩니다.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Windows 탐색기에서 Bluetooth 장치로 파일 보내기</h3>
+
+<p>Windows 탐색기에서 Bluetooth 장치로 파일을 보내려면 다음 단계를 따르십시오.</p>
+
+<ol>
+ <li>Windows 탐색기에서 파일 아이콘을 마우스 오른쪽 버튼으로 클릭하고 컨텍스트 메뉴의 <b>보내기</b> 항목에서 <b>Bluetooth</b> 작업을 선택합니다. <b>Bluetooth 장치로 파일 보내기 마법사</b>가 나타납니다.</li>
+ <li><b>Bluetooth 장치로 파일 보내기 마법사</b>가 열린 후 파일을 전송할 Bluetooth 장치를 선택하고 <b>다음</b> 버튼을 클릭합니다.</li>
+ <li>파일 전송 진행률 창이 나타나고 선택한 파일이 선택한 Bluetooth 장치로 전송됩니다. 전송이 완료되면 알림이 표시됩니다.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>서비스 창에서 Bluetooth 장치로 파일 보내기</h3>
+
+<p>서비스 창에서 Bluetooth 장치로 파일을 보내려면 다음 단계를 따르십시오.</p>
+
+<ol>
+ <li>서비스 창에서 <b>파일 보내기</b> 링크를 클릭합니다. 열기 대화 상자가 나타납니다.</li>
+ <li>목록에서 파일을 선택하고 <b>열기</b> 버튼을 클릭합니다. <b>Bluetooth 장치로 파일 보내기 마법사</b>가 나타납니다.</li>
+ <li><b>Bluetooth 장치로 파일 보내기 마법사</b>가 열리면 <b>다음</b> 버튼을 클릭합니다.</li>
+ <li>파일 전송 진행률 창이 나타나고 선택한 파일이 선택한 Bluetooth 장치로 전송됩니다. 전송이 완료되면 알림이 표시됩니다.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Bluetooth 장치로부터 파일 받기</h2>
+
+<p>다른 Bluetooth 장치가 BIP 또는 OPP를 통해 컴퓨터로 파일 전송을 시작한 경우, <b>파일 받는 중</b> 창에 수신 파일의 기본 대상 경로가 나타납니다.</p>
+
+<p><b><i>참고:</i></b> 일반적으로 BIP는 모바일 장치에서 컴퓨터로 사진을 전송할 때 사용됩니다. OPP는 모든 종류의 파일을 전송할 때 사용됩니다.</p>
+
+<p>파일 수신 중 창에서는 받은 파일/그림을 저장할 기본 대상 폴더를 변경할 수 있습니다. 기본 대상 폴더를 변경하려면 다음 단계를 수행하십시오.</p>
+
+<ol>
+ <li><b>찾아보기</b>를 클릭하고 원하는 폴더 창을 선택합니다.</li>
+ <li>경로를 선택한 후 <b>허용</b>을 클릭하여 파일 전송을 시작합니다.</li>
+ <li>받은 파일을 거부하려면 <b>거부</b>를 클릭합니다.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Bluetooth 장치에서 파일 및 폴더 수정</h3>
+
+<p>FTP 프로필을 지원하는 Bluetooth 장치는 로컬 공유 폴더의 파일 및 폴더에 변경을 수행할 수 있습니다. 원격 장치에서 공유되는 내용을 덮어 쓰거나 이름을 바꾸거나 삭제하려고 할 때 특별한 권한이 요청됩니다. 변경 사항을 적용하기 전에 <b>권한 요청</b> 창이 나타납니다. <b>권한 요청</b> 창에는 다음과 같은 옵션이 있습니다.</p>
+
+<ul>
+ <li><b>이번 한 번만 허용</b>을 선택하고 <b>확인</b>을 클릭하여 Bluetooth 장치의 변경을 일시적으로 허용합니다.</li>
+ <li><b>이 장치를 항상 허용</b>을 선택하고 <b>확인</b>을 클릭하여 Bluetooth 장치가 페어링되는 동안 장치의 변경을 허용합니다.</li>
+ <li>Bluetooth 장치의 변경을 거부할 경우, <b>취소</b>를 클릭합니다.</li>
+</ul>
+
+<p>전송되는 파일이 기존 파일을 변경하지 않는 경우 <b>권한 요청</b> 창이 나타나지 않고 전송됩니다.</p>
+
+<h3><a name="_receiving_files_progress">파일 받기 진행률</a></h3>
+
+<p>다른 Bluetooth 장치가 컴퓨터로 파일 전송을 시작하고 전송이 수락되는 경우, <b>파일 받는 중</b> 창이 다음과 같이 나타날 수 있습니다.</p>
+
+<ul>
+ <li>원격 장치가 BIP 또는 OPP 클라이언트인 경우 <b>파일 받는 중</b> 창이 나타납니다.</li>
+ <li>원격 장치가 FTP 클라이언트인 경우 이 사용 설명서의 <a href="cont_conf_bt.htm#_shared_folder_configuration">폴더 공유 설정</a> 섹션에 설명된 단계에 따라 <b>파일 받는 중</b> 창 표시를 설정할 수 있습니다.</li>
+</ul>
+
+<p><b>파일 받는 중</b> 창은 모든 파일에 대해 다음 정보를 표시합니다.</p>
+
+<ul>
+ <li>전송 상태(성공적으로 받음, 받지 않음, 전송 중 등)</li>
+ <li>현재 전송 중인 파일의 전송 변조 속도</li>
+ <li>성공적으로 받은 파일의 크기</li>
+</ul>
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Trasferimento file tramite Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Trasferimento file tramite Bluetooth<sup>&reg;</sup></h1>
+
+<p>Consente di condividere file e cartelle locali sul computer con altri dispositivi Bluetooth, trasferire qualsiasi tipo di file tra il computer e i dispositivi Bluetooth, persino creare o eliminare file e cartelle sul dispositivo Bluetooth e utilizzare la procedura guidata di invio dal menu Microsoft Office per inviare file ai dispositivi Bluetooth.</p>
+
+<p>Profili e ruoli supportati:</p>
+
+<ul>
+ <li>FTP (File Transfer Profile) (client/server)</li>
+ <li>Basic Imaging Profile (BIP) (Iniziatore/Soccorritore)</li>
+ <li>Profilo OPP (Object Push Profile) (Client/Server)</li>
+</ul>
+
+<p>Funzioni supportate:</p>
+
+<ul>
+ <li>SRM (Single Response Mode) OBEX (Object Exchange) 1.5</li>
+ <li>Integrazione di Microsoft Office per il client OPP (Object Push Profile)</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Condivisione della cartella locale con altri dispositivi Bluetooth</h2>
+
+<p>È possibile condividere le cartelle sul computer con altri dispositivi Bluetooth attenendosi alla procedura descritta nella sezione <a href="cont_conf_bt.htm#_shared_folder_configuration">Impostazione di condivisione della cartella</a> riportata in questo Manuale per l'utente.</p>
+
+<p>La cartella condivisa è utilizzata come cartella principale per il trasferimento dei file mediante FTP e come cartella predefinita per la ricezione dei file mediante OPP e BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Esplorazione di una cartella condivisa su un dispositivo Bluetooth remoto</a></h2>
+
+<p>In caso di connessione a un dispositivo Bluetooth che supporta la tecnologia FTP, è possibile utilizzare una finestra standard analoga a Explorer per eseguire normali operazioni con i file tra il dispositivo e il computer, come avverrebbe in locale:</p>
+
+<ul>
+ <li>Esplorazione di file e cartelle</li>
+ <li>Trasferimento di file e cartelle</li>
+ <li>Eliminazione di file e cartelle</li>
+ <li>Ridenominazione di file e cartelle <br><b><i>Nota:</i></b> se il dispositivo remoto supporta un ruolo server FTP precedente alla versione v1.2, è possibile rinominare solo le cartelle vuote.</li>
+ <li>Creazione di cartelle</li>
+</ul>
+
+<p>Per accedere alla cartella condivisa sul dispositivo remoto dalla finestra Servizi:</p>
+
+<ol>
+ <li>Aprire la finestra Servizi del dispositivo (vedere <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Aggiunta e collegamento di un nuovo dispositivo Bluetooth<sup>&reg;</sup></a>).</li>
+ <li>Fare clic su <b>Sfoglia cartella remota</b>.</li>
+</ol>
+
+<p>Per accedere alla cartella condivisa sul dispositivo remoto da Windows Explorer:</p>
+
+<ol>
+ <li>Aprire la cartella <b>Computer</b>.</li>
+ <li>Fare clic sull'icona con il nome del dispositivo remoto.</li>
+</ol>
+
+<p><b><i>Nota:</i></b> se il dispositivo remoto supporta temporaneamente il ruolo server FTP (cioè il ruolo server FTP può essere attivato o disattivato), è possibile che il collegamento nella cartella <b>Computer</b> non sia presente. In questo caso, utilizzare la finestra Servizi del dispositivo remoto.</p>
+
+<p><b><i>Nota:</i></b> durante lo scambio dati, il dispositivo remoto potrebbe richiedere una password. In tal caso entrambi i dispositivi devono immettere la stessa password per consentire il collegamento. Se le password non corrispondono, il collegamento verrà terminato.</p>
+
+<h2><a name="_sending_files">Invio di file a un dispositivo Bluetooth</a></h2>
+
+<p>La <b>Procedura guidata per inviare file al dispositivo Bluetooth</b> viene utilizzata per inviare i file al dispositivo Bluetooth remoto. La procedura guidata consente di inviare un singolo file, ma è possibile avviare più procedure guidate contemporaneamente. È disponibile una sequenza di operazioni per selezionare il dispositivo remoto di destinazione e il file da inviare. La <b>Procedura guidata per inviare file al dispositivo Bluetooth</b> può essere eseguita in diversi scenari.</p>
+
+<p><b><i>Nota:</i></b> il profilo BIP viene in genere utilizzato per l'invio di immagini da un dispositivo mobile a un computer. Il profilo OPP viene utilizzato per inviare tutti gli altri tipi di file. La <b>Procedura guidata per inviare file al dispositivo Bluetooth</b> supporta entrambi i profili.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Invio di file da Microsoft Office a un dispositivo Bluetooth</h3>
+
+<p>Sono supportate le seguenti versioni di <span class="no_translation">Microsoft Office</span>:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Sono supportati i seguenti elementi e applicazioni di <span class="no_translation">Microsoft Office</span>:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">documento</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">cartella di lavoro</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">presentazione</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">database</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">appuntamento</span>, <span class="translation_from_microsoft">contatto</span>, <span class="translation_from_microsoft">messaggio</span>, <span class="translation_from_microsoft">nota</span>, <span class="translation_from_microsoft">attività</span></li>
+</ul>
+
+<p>L'elemento <span class="no_translation">Microsoft Office</span> viene salvato automaticamente prima di essere inviato a un dispositivo Bluetooth remoto.</p>
+
+<p><b><i>Nota:</i></b> se l'elemento <span class="no_translation">Microsoft Office</span> non è mai stato salvato, la richiesta di salvataggio viene visualizzata in <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> e <span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>Nota:</i></b> se l'elemento <span class="no_translation">Microsoft Office</span> è il database ed è stato appena creato, l'applicazione <span class="no_translation">Access</span> viene riavviata.</p>
+
+<p>Per inviare un elemento <span class="no_translation">Microsoft Office</span> a un dispositivo Bluetooth remoto:</p>
+
+<ol>
+ <li>In base alla versione di <span class="no_translation">Microsoft Office</span> e all'applicazione <span class="no_translation">Microsoft Office</span> in uso, selezionare <b class="translation_from_wording">Spedire a Bluetooth</b> nel sottomenu <b class="translation_from_microsoft">Condividi</b>, <b class="translation_from_microsoft">Salva e invia</b> o <b class="translation_from_microsoft">Salva e pubblica</b>. Consultare la <span class="translation_from_microsoft">Guida di Microsoft Office</span> per le istruzioni su come eseguire questa operazione. Verrà avviata la <b class="translation_from_wording">Procedura guidata per inviare file al dispositivo Bluetooth</b>.</li>
+ <li>Una volta avviata la <b>Procedura guidata per inviare file al dispositivo Bluetooth</b>, selezionare il dispositivo Bluetooth al quale inviare il file e fare clic sul pulsante <b>Avanti</b>.</li>
+ <li>Verrà visualizzata la finestra dello stato del trasferimento e l'elemento verrà inviato al dispositivo Bluetooth selezionato. Al termine del trasferimento verrà ricevuta una notifica.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Invio di file da Windows Explorer a un dispositivo Bluetooth</h3>
+
+<p>Per inviare file da Windows Explorer a un dispositivo Bluetooth:</p>
+
+<ol>
+ <li>In Windows Explorer, fare clic con il pulsante destro del mouse sull'icona del file e selezionare l'azione <b>Bluetooth</b> nella voce <b>Spedire a</b> nel menu contestuale. Verrà avviata la <b>Procedura guidata per inviare file al dispositivo Bluetooth</b>.</li>
+ <li>Una volta avviata la <b>Procedura guidata per inviare file al dispositivo Bluetooth</b>, selezionare il dispositivo Bluetooth al quale inviare il file e fare clic sul pulsante <b>Avanti</b>.</li>
+ <li>Verrà visualizzata la finestra dello stato del trasferimento e il file scelto verrà inviato al dispositivo Bluetooth selezionato. Al termine del trasferimento verrà ricevuta una notifica.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Invio di file dalla finestra Servizi a un dispositivo Bluetooth</h3>
+
+<p>Per inviare file dalla finestra Servizi a un dispositivo Bluetooth:</p>
+
+<ol>
+ <li>Fare clic sul collegamento <b>Invia file</b> nella finestra Servizi. Verrà visualizzata la finestra di dialogo Apri.</li>
+ <li>Scegliere un file dall'elenco e fare clic sul pulsante <b>Apri</b>. Verrà avviata la <b>Procedura guidata per inviare file al dispositivo Bluetooth</b>.</li>
+ <li>Una volta avviata la <b>Procedura guidata per inviare file al dispositivo Bluetooth</b>, fare clic sul pulsante <b>Avanti</b>.</li>
+ <li>Verrà visualizzata la finestra dello stato del trasferimento e il file scelto verrà inviato al dispositivo Bluetooth selezionato. Al termine del trasferimento verrà ricevuta una notifica.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Ricezione di file da un dispositivo Bluetooth</h2>
+
+<p>Se un altro dispositivo Bluetooth avvia un trasferimento file al computer mediante profilo BIP od OPP, verrà visualizzata la finestra <b>Ricezione di file</b> con un percorso di destinazione predefinito per i file in entrata.</p>
+
+<p><b><i>Nota:</i></b> il profilo BIP viene in genere utilizzato per l'invio di immagini da un dispositivo mobile a un computer. Il profilo OPP viene utilizzato per inviare tutti gli altri tipi di file.</p>
+
+<p>Nella finestra Ricezione file è possibile modificare la cartella di destinazione predefinita nella quale vengono salvati i file e le foto in arrivo. A tale scopo, attenersi alla seguente procedura:</p>
+
+<ol>
+ <li>Fare clic su <b>Sfoglia</b> e selezionare la finestra della cartella desiderata.</li>
+ <li>Dopo aver selezionato il percorso, fare clic su <b>Accetta</b> per avviare il trasferimento dei file.</li>
+ <li>Per rifiutare un file in arrivo, fare clic su <b>Rifiuta</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Modifica di file e cartelle da un dispositivo Bluetooth</h3>
+
+<p>Un dispositivo Bluetooth che supporta il profilo FTP può apportare modifiche ai file e alle cartelle contenuti nella cartella condivisa locale. Saranno richieste autorizzazioni speciali se il dispositivo remoto tenterà di sovrascrivere, rinominare o eliminare i contenuti condivisi. Prima di apportare queste modifiche, verrà visualizzata la finestra <b>Richiesta di autorizzazione</b>. All'interno della finestra <b>Richiesta di autorizzazione</b> sono disponibili le seguenti opzioni:</p>
+
+<ul>
+ <li>Selezionare <b>Consenti solo questa volta</b> e fare clic su <b>OK</b> per consentire temporaneamente modifiche da un dispositivo Bluetooth.</li>
+ <li>Selezionare <b>Autorizza sempre questo dispositivo</b> e fare clic su <b>OK</b> per consentire modifiche da un dispositivo Bluetooth durante l'associazione.</li>
+ <li>Per rifiutare temporaneamente modifiche da un dispositivo Bluetooth, fare clic su <b>Annulla</b>.</li>
+</ul>
+
+<p>Se il file da trasferire non causa la modifica di nessun file esistente, è possibile trasferirlo senza che venga visualizzata la finestra <b>Richiesta di autorizzazione</b>.</p>
+
+<h3><a name="_receiving_files_progress">Avanzamento ricezione file</a></h3>
+
+<p>Quando un altro dispositivo Bluetooth avvia un trasferimento file al computer e il trasferimento viene accettato, è possibile che la finestra <b>Ricezione</b> venga visualizzata:</p>
+
+<ul>
+ <li>Se il dispositivo remoto è un client BIP o OPP, viene visualizzata la finestra <b>Ricezione</b>.</li>
+ <li>Se il dispositivo remoto è un client FTP, è possibile configurare l'aspetto della finestra <b>Ricezione</b> attenendosi alla procedura descritta nella sezione <a href="cont_conf_bt.htm#_shared_folder_configuration">Impostazione di condivisione della cartella</a> riportata nel presente Manuale per l'utente.</li>
+</ul>
+
+<p>La finestra <b>Ricezione</b> mostra le seguenti informazioni per ciascun file:</p>
+
+<ul>
+ <li>Stato del trasferimento (ricevuto correttamente, non ricevuto, trasferimento in corso, ecc.)</li>
+ <li>Velocità di trasmissione per i file attualmente in fase di trasferimento</li>
+ <li>Dimensioni dei file ricevuti correttamente</li>
+</ul>
+
+</body>
+
+</html>

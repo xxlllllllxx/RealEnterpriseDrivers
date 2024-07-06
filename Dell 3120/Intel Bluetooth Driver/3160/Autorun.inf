@@ -1,0 +1,9 @@
+[autorun]
+ICON=Autorun.exe
+OPEN=Autorun.exe
+WIN7_APPS_32=Win7\vs32\Setup.exe
+WIN7_APPS_64=Win7\vs64\Setup.exe
+WIN8_APPS_32=Win8\win32\Install\Setup.exe
+WIN8_APPS_64=Win8\win64\Install\Setup.exe
+WINB_APPS_32=Win8.1\win32\Install\Setup.exe
+WINB_APPS_64=Win8.1\win64\Install\Setup.exe

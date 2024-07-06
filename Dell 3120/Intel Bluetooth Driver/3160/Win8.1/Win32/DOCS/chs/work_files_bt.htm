@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=GB18030">
+    <title>通过蓝牙(R) 传输文件</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>通过蓝牙<sup>&reg;</sup> 传输文件</h1>
+
+<p>与其他蓝牙设备共享计算机上的本地文件和文件夹、在计算机和蓝牙设备之间传输任何类型的文件、甚至在蓝牙设备上创建或删除文件和文件夹，以及使用 Microsoft Office 菜单中的“发送向导”将文件发送到蓝牙设备。</p>
+
+<p>支持的模式与角色：</p>
+
+<ul>
+ <li>文件传输协议 (FTP)（客户端/服务器）</li>
+ <li>基本成像配置文件 (BIP)（发起人/响应者）</li>
+ <li>对象推送配置文件 (OPP)（客户端/服务器）</li>
+</ul>
+
+<p>支持的功能：</p>
+
+<ul>
+ <li>对象交换 (OBEX) 1.5 单响应模式 (SRM)</li>
+ <li>Microsoft Office 与对象推送模式 (OPP) 客户端的集成</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>与其他蓝牙设备共享本地文件夹</h2>
+
+<p>通过执行本用户指南<a href="cont_conf_bt.htm#_shared_folder_configuration">文件夹共享设置</a>部分中所述的以下步骤，可与其他蓝牙设备共享计算机上的文件夹。</p>
+
+<p>共享文件夹用作通过 FTP 传输文件的根文件夹，以及通过 OPP 和 BIP 接收文件的默认文件夹。</p>
+
+<h2><a name="_browsing_shared_folder">浏览远程蓝牙设备的共享文件夹</a></h2>
+
+<p>连接至支持 FTP 的蓝牙设备后，一个类似 Explorer 的标准窗口可用于在设备和计算机之间进行正常文件操作，正如在本地执行操作一样：</p>
+
+<ul>
+ <li>浏览文件和文件夹</li>
+ <li>传输文件和文件夹</li>
+ <li>删除文件和文件夹</li>
+ <li>重命名文件和文件夹 <br><b><i>注意：</i></b>如果远程设备支持低于 v1.2 版本的 FTP 服务器角色，则仅空文件夹可以重命名。</li>
+ <li>创建文件夹</li>
+</ul>
+
+<p>要从“服务”窗口访问远程设备中的共享文件夹：</p>
+
+<ol>
+ <li>打开设备上的“服务”窗口（请参阅<a href="star_new_devi.htm#_start_working_new_bluetooth_device">添加并连接到新蓝牙<sup>&reg;</sup> 设备</a>）。</li>
+ <li>单击<b>浏览远程文件夹</b>。</li>
+</ol>
+
+<p>要从 Windows 资源管理器访问远程设备中的共享文件夹：</p>
+
+<ol>
+ <li>打开<b>计算机</b>文件夹。</li>
+ <li>单击带远程设备名称的图标。</li>
+</ol>
+
+<p><b><i>注意</i></b>：如果远程设备暂时支持 FTP 服务器角色（例如，可以打开或关闭 FTP 服务器角色），则<b>计算机</b>文件夹中的链接不存在。在此情况下，使用远程设备“服务”窗口。</p>
+
+<p><b><i>注意：</i></b>在数据交换期间，远程设备可能需要密码，在这种情况下，两个设备必须输入相同的密码才可启用连接。如果密码不匹配，将终止此连接。</p>
+
+<h2><a name="_sending_files">将文件发送到蓝牙设备</a></h2>
+
+<p><b>将文件发送到蓝牙设备向导</b>用于将文件发送到远程蓝牙设备。向导能够发送单个文件，但可以同时启动多个向导。系统提供一系列步骤来选择目标远程设备和要发送的文件。<b>将文件发送到蓝牙设备向导</b>可在多个场景中执行。</p>
+
+<p><b><i>注意：</i></b>通常，BIP 用于将图片从移动设备发送到计算机。OPP 用于发送所有其他类型的文件。<b>将文件发送到蓝牙设备向导</b>支持这两种配置文件。</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>将文件从 Microsoft Office 发送到蓝牙设备</h3>
+
+<p>支持以下 <span class="no_translation">Microsoft Office</span> 版本：</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>支持以下 <span class="no_translation">Microsoft Office</span> 应用程序和项目：</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>：<span class="translation_from_microsoft">文档</span></li>
+ <li><span class="no_translation">Excel</span>：<span class="translation_from_microsoft">工作簿</span></li>
+ <li><span class="no_translation">PowerPoint</span>：<span class="translation_from_microsoft">演示文稿</span></li>
+ <li><span class="no_translation">Access</span>：<span class="translation_from_microsoft">数据库</span></li>
+ <li><span class="no_translation">Outlook</span>：<span class="translation_from_microsoft">约会</span>、<span class="translation_from_microsoft">联系人</span>、<span class="translation_from_microsoft">消息</span>、<span class="translation_from_microsoft">注释</span>、<span class="translation_from_microsoft">任务</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> 项目在发送至远程蓝牙设备之前会自动保存。</p>
+
+<p><b><i>注：</i></b>如果 <span class="no_translation">Microsoft Office</span> 项目从不保存，将在 <span class="no_translation">Word</span>、<span class="no_translation">Excel</span> 和 <span class="no_translation">PowerPoint</span> 中显示保存提示。</p>
+
+<p><b><i>注：</i></b>如果 <span class="no_translation">Microsoft Office</span> 项目为数据库且刚刚创建，将重新启动<span class="no_translation">访问</span>应用程序。</p>
+
+<p>要将 <span class="no_translation">Microsoft Office </span>项目发送至远程蓝牙设备：</p>
+
+<ol>
+ <li>根据您使用的 <span class="no_translation">Microsoft Office</span> 版本和 <span class="no_translation">Microsoft Office</span> 应用程序，在<b class="translation_from_microsoft">共享</b>、<b class="translation_from_microsoft">保存并发送</b>或<b class="translation_from_microsoft">保存并发布</b>子菜单中选择<b class="translation_from_wording">发送至蓝牙</b>操作。请查阅 <span class="translation_from_microsoft">Microsoft Office 帮助</span>，了解有关操作方法的指示。<b class="translation_from_wording">将文件发送到蓝牙设备向导</b>会出现。</li>
+ <li><b>将文件发送到蓝牙设备向导</b>打开之后，选择蓝牙设备以为其发送文件并单击<b>下一步</b>按钮。</li>
+ <li>然后，将出现文件传输进度窗口，项目将被发送到选定的蓝牙设备。传输完成后会通知您。</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>将文件从 Windows 资源管理器发送到蓝牙设备</h3>
+
+<p>要将文件从 Windows 资源管理器发送到蓝牙设备：</p>
+
+<ol>
+ <li>在 Windows 资源管理器中，右键单击文件图标并在上下文菜单的<b>发送到</b>项中选择<b>蓝牙</b>操作。<b>将文件发送到蓝牙设备向导</b>会出现。</li>
+ <li><b>将文件发送到蓝牙设备向导</b>打开之后，选择蓝牙设备以为其发送文件并单击<b>下一步</b>按钮。</li>
+ <li>此时会出现文件传输进度窗口，选定的文件会被发送到选定的蓝牙设备。传输完成后会通知您。</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>将文件从服务窗口发送到蓝牙设备</h3>
+
+<p>要将文件从服务窗口发送到蓝牙设备：</p>
+
+<ol>
+ <li>单击服务窗口中的<b>发送文件</b>链接。此时将出现“打开”对话框窗口。</li>
+ <li>从列表中选择文件并单击<b>打开</b>按钮。<b>将文件发送到蓝牙设备向导</b>会出现。</li>
+ <li><b>将文件发送到蓝牙设备向导</b>打开之后，单击<b>下一步</b>按钮。</li>
+ <li>此时会出现文件传输进度窗口，选定的文件会被发送到选定的蓝牙设备。传输完成后会通知您。</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>接收来自蓝牙设备的文件</h2>
+
+<p>其他蓝牙设备使用 BIP 或 OPP 启动到计算机的文件传输时，<b>正在接收文件</b>窗口将出现，为传入文件提供了默认目标路径。</p>
+
+<p><b><i>注意：</i></b>通常，BIP 用于将图片从移动设备发送到计算机。OPP 用于发送所有其他类型的文件。</p>
+
+<p>在“接收文件”窗口中，可以更改保存传入文件/图片的默认目标文件夹。 为此，请按照以下步骤操作：</p>
+
+<ol>
+ <li>单击<b>浏览</b>并选择所需的文件夹窗口。</li>
+ <li>选择路径之后，单击<b>接受</b>开始文件传送。</li>
+ <li>要拒绝传入文件，请单击<b>拒绝</b>。</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>修改蓝牙设备中的文件和文件夹</h3>
+
+<p>支持 FTP 配置文件的蓝牙设备可更改本地共享文件夹中的文件和文件夹。如果远程设备尝试覆盖、重命名或删除共享内容，则需要特殊权限。先会出现<b>权限请求</b>窗口，然后才能执行上述更改。在<b>权限请求</b>窗口中有以下几个选项：</p>
+
+<ul>
+ <li>选择<b>只允许这一次</b>并单击<b>确定</b>，以暂时允许从蓝牙设备作出的更改。</li>
+ <li>选择<b>总是允许此设备</b>并单击<b>确定</b>，以允许在蓝牙设备配对后从蓝牙设备作出的更改。</li>
+ <li>要暂时拒绝从蓝牙设备作出的更改，请单击<b>取消</b>。</li>
+</ul>
+
+<p>如果要传输的文件未更改任何现有文件，则该文件将被传输，而不会出现<b>权限请求</b>窗口。</p>
+
+<h3><a name="_receiving_files_progress">接收文件进度</a></h3>
+
+<p>其他蓝牙设备启动到计算机的文件传输且传输被接受时，<b>正在接收</b>窗口会出现：</p>
+
+<ul>
+ <li>如果远程设备为 BIP 或 OPP 客户端，则<b>正在接收</b>窗口会出现。</li>
+ <li>如果远程设备为 FTP 客户端，则可按照此用户指南中的<a href="cont_conf_bt.htm#_shared_folder_configuration">文件夹共享设置</a>部分所述的步骤配置显示的<b>正在接收</b>窗口。</li>
+</ul>
+
+<p><b>正在接收</b>窗口显示每个文件的以下信息：</p>
+
+<ul>
+ <li>传输状态（已成功接收、未接收、正在传输等）</li>
+ <li>当前传输文件的传输波特率</li>
+ <li>成功接收的文件大小</li>
+</ul>
+
+</body>
+
+</html>

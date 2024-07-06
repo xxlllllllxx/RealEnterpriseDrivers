@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Bestandsoverdracht via Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Bestandsoverdracht via Bluetooth<sup>&reg;</sup></h1>
+
+<p>Lokale bestanden en mappen op uw computer delen met andere Bluetooth-apparaten, elk type bestand overdragen tussen computer en Bluetooth-apparaten, bestanden en mappen maken op of verwijderen van een Bluetooth-apparaat, en met de Send-To Wizard (wizard Verzenden naar) van het Microsoft Office-menu bestanden verzenden naar Bluetooth-apparaten.</p>
+
+<p>Ondersteunde profielen en rollen:</p>
+
+<ul>
+ <li>FTP (File Transfer Profile) (client/server)</li>
+ <li>Basic Imaging Profile (BIP) (initiator/beantwoorder)</li>
+ <li>Object Push Profile (OPP) (client/server)</li>
+</ul>
+
+<p>Ondersteunde functies:</p>
+
+<ul>
+ <li>Object Exchange (OBEX) 1.5 Single Response Mode (SRM)</li>
+ <li>Microsoft Office-integratie voor OPP-client (Object Push Profile)</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Lokale map delen met andere Bluetooth-apparaten</h2>
+
+<p>U kunt mappen op uw computer delen met andere Bluetooth-apparaten door de procedure in het gedeelte <a href="cont_conf_bt.htm#_shared_folder_configuration">Instellingen voor het delen van mappen</a> van deze gebruikershandleiding te volgen.</p>
+
+<p>De gedeelde map wordt als root gebruikt voor bestandsoverdracht via FTP en als de standaardmap voor het ontvangen van bestanden via OPP en BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Bladeren door de gedeelde map van een extern Bluetooth-apparaat</a></h2>
+
+<p>Wanneer u bent verbonden met een Bluetooth-apparaat dat FTP ondersteunt, kan er een Verkenner-achtig venster worden gebruikt om gebruikelijke bestandsbewerkingen uit te voeren tussen het apparaat en de computer, zoals u dit doet met lokale bestanden:</p>
+
+<ul>
+ <li>Door bestanden en mappen bladeren</li>
+ <li>Bestanden en mappen overbrengen</li>
+ <li>Bestanden en mappen verwijderen</li>
+ <li>Bestanden en mappen hernoemen <br><b><i>Opmerking:</i></b> als het externe apparaat een FTP-serverrol lager dan v1.2 ondersteunt, kunnen alleen lege mappen worden hernoemd.</li>
+ <li>Mappen maken</li>
+</ul>
+
+<p>De gedeelde map openen op het externe apparaat via het venster Services:</p>
+
+<ol>
+ <li>Open het venster Services op het apparaat (zie <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Een nieuw Bluetooth<sup>&reg;</sup>-apparaat toevoegen en daarmee verbinding maken</a>).</li>
+ <li>Klik op <b>Bladeren naar externe map</b>.</li>
+</ol>
+
+<p>De gedeelde map openen op het externe apparaat via Windows Verkenner:</p>
+
+<ol>
+ <li>Open de map <b>Computer</b>.</li>
+ <li>Klik op het pictogram van het externe apparaat.</li>
+</ol>
+
+<p><b><i>Opmerking:</i></b> als het externe apparaat de FTP-serverrol tijdelijk ondersteunt (de FTP-serverrol kan worden in- of uitgeschakeld), ontbreekt mogelijk de koppeling in de map <b>Computer</b>. Gebruik in dat geval het venster Services op het externe apparaat.</p>
+
+<p><b><i>Opmerking:</i></b> tijdens de gegevensuitwisseling verzoekt het externe apparaat misschien om een wachtwoord. In dat geval moeten beide apparaten hetzelfde wachtwoord invoeren om de verbinding tot stand te brengen. Als de wachtwoorden niet overeenkomen, wordt de verbinding verbroken.</p>
+
+<h2><a name="_sending_files">Bestanden verzenden naar een Bluetooth-apparaat</a></h2>
+
+<p>De <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> wordt gebruikt om bestanden naar het externe Bluetooth-apparaat te verzenden. De wizard kan één bestand verzenden, maar er kunnen meerdere wizards tegelijkertijd worden geopend. Een stapsgewijze uitleg helpt u bij het selecteren van het externe apparaat en het bestand dat u wilt verzenden. De <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> kan in meerdere scenario's worden uitgevoerd.</p>
+
+<p><b><i>Opmerking:</i></b> BIP wordt doorgaans gebruikt om foto's van een mobiel apparaat naar een computer te verzenden. OPP wordt gebruikt voor het verzenden van alle overige bestandstypen. De <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> ondersteunt beide profielen.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Bestanden verzenden van Microsoft Office naar een Bluetooth-apparaat</h3>
+
+<p>De volgende versies van <span class="no_translation">Microsoft Office</span> worden ondersteund:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>De volgende toepassingen en items van <span class="no_translation">Microsoft Office</span> worden ondersteund:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">document</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">werkmap</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">presentatie</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">database</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">afspraak</span>, <span class="translation_from_microsoft">contactpersoon</span>, <span class="translation_from_microsoft">bericht</span>, <span class="translation_from_microsoft">notitie</span>, <span class="translation_from_microsoft">taak</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span>-item wordt automatisch opgeslagen voordat het naar een extern Bluetooth-apparaat kan worden verzonden.</p>
+
+<p><b><i>Opmerking:</i></b> als een <span class="no_translation">Microsoft Office</span>-item nog nooit is opgeslagen, wordt er in <span class="no_translation">Word</span>, <span class="no_translation">Excel</span> en <span class="no_translation">PowerPoint</span> een melding weergegeven.</p>
+
+<p><b><i>Opmerking:</i></b> als het <span class="no_translation">Microsoft Office</span>-item de database is en net is gemaakt, moet de toepassing <span class="no_translation">Access</span> opnieuw opstarten.</p>
+
+<p>Een <span class="no_translation">Microsoft Office</span>-item naar een extern Bluetooth-apparaat sturen:</p>
+
+<ol>
+ <li>Afhankelijk van de versie van <span class="no_translation">Microsoft Office</span> en de <span class="no_translation">Microsoft Office</span>-toepassing die u gebruikt, klikt u op <b>Verzenden naar Bluetooth</b> in het submenu Delen<b>,</b> Opslaan en verzenden of <b>Opslaan en publiceren</b>. In de Microsoft Office Help vindt u verdere aanwijzingen. De wizard <b class="translation_from_wording">Bestand verzenden naar Bluetooth-apparaat</b> verschijnt.</li>
+ <li>In de <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> selecteert u het Bluetooth-apparaat waarnaartoe het bestand moet worden verzonden. Klik vervolgens op de knop <b>Volgende</b>.</li>
+ <li>Het statusvenster van de bestandsoverdracht verschijnt en het item wordt verzonden naar het Bluetooth-apparaat dat u hebt geselecteerd. U ontvangt een melding wanneer de overdracht is voltooid.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Bestanden verzenden vanuit Windows Verkenner naar een Bluetooth-apparaat</h3>
+
+<p>U kunt bestanden vanuit Windows Verkenner naar een Bluetooth-apparaat als volgt verzenden:</p>
+
+<ol>
+ <li>In Windows Verkenner klikt u met de rechtermuisknop op het bestandspictogram en selecteert u <b>Bluetooth</b> bij <b>Verzenden naar</b> in het contextmenu. De <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> verschijnt.</li>
+ <li>In de <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> selecteert u het Bluetooth-apparaat waarnaartoe het bestand moet worden verzonden. Klik vervolgens op de knop <b>Volgende</b>.</li>
+ <li>Het statusvenster van de bestandsoverdracht verschijnt, en het gekozen bestand wordt verzonden naar het Bluetooth-apparaat dat u hebt geselecteerd. U ontvangt een melding wanneer de overdracht is voltooid.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Vanuit het venster Services bestanden verzenden naar een Bluetooth-apparaat</h3>
+
+<p>U kunt bestanden vanuit het venster Services als volgt naar een Bluetooth-apparaat verzenden:</p>
+
+<ol>
+ <li>Klik op de koppeling <b>Bestand verzenden</b> in het venster Services. Het dialoogvenster Openen verschijnt.</li>
+ <li>Kies een bestand in de lijst en klik op de knop <b>Openen</b>. De <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> verschijnt.</li>
+ <li>Klik in de <b>Wizard Bestand verzenden naar Bluetooth-apparaat</b> op de knop <b>Volgende</b>.</li>
+ <li>Het statusvenster van de bestandsoverdracht verschijnt, en het gekozen bestand wordt verzonden naar het Bluetooth-apparaat dat u hebt geselecteerd. U ontvangt een melding wanneer de overdracht is voltooid.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Bestanden ontvangen van een Bluetooth-apparaat</h2>
+
+<p>Wanneer een ander Bluetooth-apparaat een bestandsoverdracht naar uw computer start met BIP of OPP, verschijnt het venster <b>Bezig met ontvangen van bestanden</b>. Dit venster biedt een standaarddoelpad voor inkomende bestanden.</p>
+
+<p><b><i>Opmerking:</i></b> BIP wordt doorgaans gebruikt om foto's van een mobiel apparaat naar een computer te verzenden. OPP wordt gebruikt voor het verzenden van alle overige bestandstypen.</p>
+
+<p>In het venster Bezig met ontvangen van bestand kunt u de standaarddoelmap wijzigen waarin inkomende bestanden/afbeeldingen worden opgeslagen. Voer de volgende stappen uit:</p>
+
+<ol>
+ <li>Klik op <b>Bladeren</b> en selecteer de gewenste map.</li>
+ <li>Wanneer een pad is geselecteerd, klikt u op <b>Accepteren</b> om de bestandsoverdracht te starten.</li>
+ <li>Als u een inkomend bestand wilt afwijzen, klikt u op <b>Weigeren</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Bestanden en mappen aanpassen vanaf een Bluetooth-apparaat</h3>
+
+<p>Een Bluetooth-apparaat dat het FTP-profiel ondersteunt, kan wijzigingen aanbrengen in bestanden en mappen in de lokale gedeelde map. Als het externe apparaat gedeelde content probeert te overschrijven, hernoemen of verwijderen, wordt hiervoor toestemming gevraagd. Voordat deze wijzigingen kunnen worden doorgevoerd, verschijnt het venster <b>Verzoek om toestemming</b>. In het venster <b>Verzoek om toestemming</b> hebt u de volgende mogelijkheden:</p>
+
+<ul>
+ <li>Selecteer <b>Alleen deze keer toestaan</b> en klik op <b>OK</b> om wijzigingen van een Bluetooth-apparaat tijdelijk toe te staan.</li>
+ <li>Selecteer <b>Dit apparaat altijd toestaan</b> en klik op <b>OK</b> om wijzigingen van een Bluetooth-apparaat toe te staan terwijl een Bluetooth-apparaat is gekoppeld.</li>
+ <li>Klik op <b>Annuleren</b> om wijzigingen van een Bluetooth-apparaat tijdelijk te negeren.</li>
+</ul>
+
+<p>Als het over te brengen bestand geen wijzigingen aanbrengt in een bestaand bestand, wordt dit overgebracht zonder dat het venster <b>Verzoek om toestemming</b> verschijnt.</p>
+
+<h3><a name="_receiving_files_progress">De voortgang van het ontvangen van bestanden</a></h3>
+
+<p>Wanneer een ander Bluetooth-apparaat een bestandsoverdracht naar uw computer start en deze overdracht wordt geaccepteerd, verschijnt mogelijk het venster <b>Ontvangen</b>:</p>
+
+<ul>
+ <li>Als het externe apparaat BIP- of OPP-client is , verschijnt het venster <b>Ontvangen</b>.</li>
+ <li>Als het externe apparaat FTP-client is, kunt het venster <b>Ontvangen</b> configureren aan de hand van de stappen in het gedeelte <a href="cont_conf_bt.htm#_shared_folder_configuration">Instellingen voor het delen van mappen</a> in deze gebruikershandleiding.</li>
+</ul>
+
+<p>Het venster <b>Ontvangen</b> geeft de volgende informatie weer voor elk bestand:</p>
+
+<ul>
+ <li>Status overdracht (ontvangen, niet ontvangen, bezig met overbrengen, enz.)</li>
+ <li>Baudfrequentie voor bestanden die momenteel worden overgebracht</li>
+ <li>Grootte van ontvangen bestanden</li>
+</ul>
+
+</body>
+
+</html>

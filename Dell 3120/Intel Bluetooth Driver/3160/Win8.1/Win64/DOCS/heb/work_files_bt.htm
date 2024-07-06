@@ -1,0 +1,175 @@
+<html DIR="RTL">
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1255">
+    <title>העברת קבצים דרך Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<div align="right">
+
+<h1><a name="_working_with_files_over_bluetooth"></a>העברת קבצים דרך <span dir="ltr">Bluetooth<sup>&reg;</sup></span></h1>
+
+<p>שתף קבצים ותיקיות מקומיים במחשב שלך עם התקני Bluetooth אחרים, העבר כל סוג של קובץ בין המחשב והתקני Bluetooth, ואפילו צור או מחק קבצים ותיקיות בהתקן Bluetooth, והשתמש באשף Send-To Wizard מתפריט Microsoft Office כדי לשלוח קבצים להתקני Bluetooth.</p>
+
+<p>פרופילים ותפקידים נתמכים:</p>
+
+<ul>
+ <li>פרוטוקול העברת קבצים (FTP) (שרת/לקוח)</li>
+ <li>פרופיל הדמיה בסיסי (BIP) (יוזם/משיב)</li>
+ <li>פרופיל אובייקט דחיפה (OPP) (לקוח/שרת)</li>
+</ul>
+
+<p>תכונות נתמכות:</p>
+
+<ul>
+ <li>(Object Exchange (OBEX) 1.5 Single Response Mode (SRM</li>
+ <li>שילוב של Microsoft Officeעבור לקוח (Object Push Profile (OPP</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>שיתוף תיקייה מקומית עם התקני Bluetooth אחרים</h2>
+
+<p>ניתן לשתף תיקיות במחשב עם התקני Bluetooth אחרים על-ידי ביצוע הפעולות המתוארות בסעיף <a href="cont_conf_bt.htm#_shared_folder_configuration">הגדרות לשיתוף תיקיות</a> של מדריך זה למשתמש.</p>
+
+<p>התיקייה המשותפת משמשת כתיקיית הבסיס להעברת קבצים באמצעות FTP ותיקיית ברירת מחדל לקבלת קבצים באמצעות OPP ו-BIP.</p>
+
+<h2><a name="_browsing_shared_folder">עיין בתיקייה המשותפת של התקן Bluetooth מרוחק</a></h2>
+
+<p>בעת החיבור להתקן Bluetooth התומך ב-FTP, חלון סטנדרטי הדומה ל-Explorer עשוי לשמש לניהול פעולות קובץ רגילות בין ההתקן והמחשב, ממש כפי שהן מתבצעות באופן מקומי:</p>
+
+<ul>
+ <li>עיין בקבצים ובתיקיות</li>
+ <li>העבר קבצים ותיקיות</li>
+ <li>מחק קבצים ותיקיות</li>
+ <li>שנה שם של קבצים ותיקיות <br><b><i>שים לב:</i></b> אם ההתקן המרוחק שלך תומך בתפקיד שרת FTP הנמוך מ-v1.2 ניתן יהיה לשנות את השם של תיקיות ריקות בלבד.</li>
+ <li>צור תיקיות</li>
+</ul>
+
+<p>כדי לגשת לתיקייה המשותפת בהתקן המרוחק מ'חלון השירות':</p>
+
+<ol>
+ <li>פתח את חלון השירותים של ההתקן (ראה <a href="star_new_devi.htm#_start_working_new_bluetooth_device">הוספת התקן <span dir="ltr">Bluetooth<sup>&reg;</sup></span> חדש והתחברות אליו</a>).</li>
+ <li>לחץ על  <b>עיון בתיקייה מרוחקת</b>.</li>
+</ol>
+
+<p>כדי לגשת לתיקייה המשותפת בהתקן המרוחק מ-Windows Explorer:</p>
+
+<ol>
+ <li>פתח את התיקייה <b>מחשב</b>.</li>
+ <li>לחץ על הסמל עם שם ההתקן המרוחק.</li>
+</ol>
+
+<p><b><i>שים לב:</i></b> אם ההתקן המרוחק תומך באופן זמני בתפקיד שרת FTP (כלומר, ניתן להפעיל ולכבות את תפקיד שרת FTP‏), ייתכן שלא יימצא קישור בתיקייה <b>מחשב</b>. במקרה כזה, השתמש בחלון השירותים של ההתקן המרוחק.</p>
+
+<p><b><i>שים לב:</i></b> בעת העברת נתונים, ההתקן המרוחק עשוי לבקש סיסמה, ובמקרה זה יש להזין בשני ההתקנים את אותה סיסמה כדי לאפשר את החיבור. אם הסיסמאות אינן תואמות, החיבור ייפסק.</p>
+
+<h2><a name="_sending_files">שלח קבצים להתקן Bluetooth</a></h2>
+
+<p><b>שלח קובץ לאשף ההתקנים של Bluetooth</b> משמש לשליחת קבצים להתקן Bluetooth מרוחק. האשף מסוגל לשלוח קובץ יחיד, אך כמה אשפים יכולים לפעול בו-זמנית. רצף שלבים מסופק לבחירת התקן יעד מרוחק וקובץ לשליחה. ניתן להפעיל את <b>שלח קובץ לאשף ההתקנים של Bluetooth</b> בכמה תרחישים.</p>
+
+<p><b><i>שים לב:</i></b> בדרך כלל, פרופיל BIP משמש לשליחת תמונות מהתקן נייד למחשב. OPP משמש לשליחת כל סוגי הקבצים האחרים. <b>שלח קובץ לאשף ההתקנים של Bluetooth</b> תומך בשני הפרופילים.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a> שליחת קבצים מ-Microsoft Office להתקן Bluetooth</h3>
+
+<p>הגרסאות הבאות של <span class="no_translation">Microsoft Office</span> נתמכות:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>היישומים והפריטים הבאים של <span class="no_translation">Microsoft Office</span> נתמכים:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">מסמך</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">חוברת עבודה</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">מצגת</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">מסד נתונים</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">פעילות</span>, <span class="translation_from_microsoft">איש קשר</span>, <span class="translation_from_microsoft">הודעה</span>, <span class="translation_from_microsoft">הערה</span>, <span class="translation_from_microsoft">משימה</span></li>
+</ul>
+
+<p>פריט <span class="no_translation">Microsoft Office</span> נשמר אוטומטית לפני שניתן לשלוח אותו למכשיר Bluetooth מרוחק.</p>
+
+<p><b><i>הערה:</i></b> אם פריט <span class="no_translation">Microsoft Office</span> לא נשמר, תופיע בקשת שמירה ב-<span class="no_translation">Word</span>‏, ב-<span class="no_translation">Excel</span> וב-<span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>הערה:</i></b> אם פריט <span class="no_translation">Microsoft Office</span> הוא מסד הנתונים והוא נוצר זה עתה, היישום <span class="no_translation">Access</span> יופעל מחדש.</p>
+
+<p>כדי לשלוח <span class="no_translation">Microsoft Office</span> למכשיר Bluetooth מרוחק:</p>
+
+<ol>
+ <li>בהתאם לגרסת <span class="no_translation">Microsoft Office</span> וליישום <span class="no_translation">Microsoft Office</span> שבו אתה משתמש, בחר את הפעולה <b class="translation_from_wording">שלח ל-Bluetooth</b> בתפריט המשנה <b class="translation_from_microsoft">שתף</b>, <b class="translation_from_microsoft">שמור ושלח</b>, או <b class="translation_from_microsoft">שמור ופרסם</b>. עיין ב<span class="translation_from_microsoft">עזרה של Microsoft Office</span> לקבלת הוראות לביצוע פעולה זו. <b class="translation_from_wording">אשף שליחת קבצים להתקן Bluetooth</b> יופיע.</li>
+ <li>לאחר פתיחת <b>שלח קובץ לאשף ההתקנים של Bluetooth</b>, בחר את התקן ה-Bluetooth שאליו ברצונך לשלוח את הקובץ ולחץ על הלחצן <b>הבא</b>.</li>
+ <li>חלון התקדמות העברת הקבצים יופיע והפריט יישלח להתקן Bluetooth שנבחר. המערכת תודיע לך לאחר השלמת ההעברה.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a> שליחת קבצים מ-Windows Explorer להתקן Bluetooth</h3>
+
+<p>כדי לשלוח קבצים מ-Windows Explorer להתקן Bluetooth:</p>
+
+<ol>
+ <li>ב-Windows Explorer, לחץ לחיצה ימנית על סמל הקובץ ובחר בפעולה <b>Bluetooth</b> בפריט <b>שלח אל</b> בתפריט ההקשר. <b>שלח קובץ לאשף ההתקנים של Bluetooth</b> יופיע.</li>
+ <li>לאחר פתיחת <b>שלח קובץ לאשף ההתקנים של Bluetooth</b>, בחר את התקן ה-Bluetooth שאליו ברצונך לשלוח את הקובץ ולחץ על הלחצן <b>הבא</b>.</li>
+ <li>חלון התקדמות העברת הקבצים יופיע, והקובץ שנבחר יישלח להתקן Bluetooth שנבחר. תקבל הודעה ברגע שההעברה תושלם.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>שליחת קבצים מחלון שירותים להתקן Bluetooth</h3>
+
+<p>כדי לשלוח קבצים מחלון שירותים להתקן Bluetooth:</p>
+
+<ol>
+ <li>לחץ על הקישור <b>שלח קובץ</b> בחלון שירותים. תיבת הדו-שיח 'פתיחה' תופיע.</li>
+ <li>בחר קובץ מהרשימה ולחץ על הלחצן <b>פתח</b>. <b>שלח קובץ לאשף ההתקנים של Bluetooth</b> יופיע.</li>
+ <li>לאחר פתיחת <b>שלח קובץ לאשף ההתקנים של Bluetooth</b>, לחץ על הלחצן <b>הבא</b>.</li>
+ <li>חלון התקדמות העברת הקבצים יופיע, והקובץ שנבחר יישלח להתקן Bluetooth שנבחר. תקבל הודעה ברגע שההעברה תושלם.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>קבלת קבצים מהתקן Bluetooth</h2>
+
+<p>כאשר התקן Bluetooth אחר יוזם העברת קובץ למחשבך באמצעות BIP או OPP, החלון <b>מקבל קבצים</b> יופיע ויספק מסלול יעד המהווה ברירת מחדל עבור הקבצים הנכנסים.</p>
+
+<p><b><i>שים לב:</i></b> בדרך כלל, פרופיל BIP משמש לשליחת תמונות מהתקן נייד למחשב. OPP משמש לשליחת כל סוגי הקבצים האחרים.</p>
+
+<p>בחלון 'קבלת קבצים' תוכל לשנות את תיקיית היעד המוגדרת כברירת מחדל שבה נשמרים קבצים נכנסים/תמונות. לשם כך, בצע את הפעולות הבאות:</p>
+
+<ol>
+ <li>לחץ על <b>עיון</b> ובחר בחלון התיקייה הרצוי.</li>
+ <li>לאחר שנבחר נתיב, לחץ על <b>קבל</b> כדי להתחיל בהעברת הקבצים.</li>
+ <li>כדי לדחות קובץ נכנס, לחץ על <b>דחה</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>שנה קבצים ותיקיות מהתקן Bluetooth</h3>
+
+<p>התקן Bluetooth התומך בפרופיל FTP יכול לערוך שינויים בקבצים ובתיקיות בתיקייה המקומית המשותפת. יתבקשו הרשאות מיוחדות אם ההתקן המרוחק ינסה להחליף, לשנות שם או למחוק תוכן משותף. החלון <b>בקשת הרשאה</b> יופיע לפני ששינויים אלה יתבצעו. בתוך החלון <b>בקשת הרשאה</b> קיימות האפשרויות הבאות:</p>
+
+<ul>
+ <li>בחר <b>אפשר בפעם הזו בלבד</b> ולחץ על <b>אישור</b> כדי לאפשר באופן זמנים שינויים מהתקן Bluetooth.</li>
+ <li>בחר <b>אפשר תמיד התקן זה</b> ולחץ על <b>אישור</b> כדי לאפשר שינויים מהתקן Bluetooth כאשר התקן Bluetooth מותאם.</li>
+ <li>כדי לדחות באופן זמני שינויים מהתקן Bluetooth, לחץ על <b>ביטול</b>.</li>
+</ul>
+
+<p>אם הקובץ שברצונך להעביר אינו משנה שום קובץ קיים, ניתן להעבירו מבלי שיופיע החלון <b>בקשת הרשאה</b>.</p>
+
+<h3><a name="_receiving_files_progress">מקבל התקדמות קבצים</a></h3>
+
+<p>כאשר התקן Bluetooth אחר יוזם העברת קובץ למחשב שלך וההעברה מתקבלת, יופיע החלון <b>מקבל</b>:</p>
+
+<ul>
+ <li>אם ההתקן המרוחק הוא לקוח BIP או OPP, יופיע החלון <b>מקבל</b>.</li>
+ <li>אם ההתקן המרוחק הוא לקוח FTP, ניתן לקבוע את תצורת הופעת החלון <b>מקבל</b> באמצעות השלבים הבאים המתוארים בסעיף <a href="cont_conf_bt.htm#_shared_folder_configuration">הגדרות לשיתוף תיקיות</a> במדריך זה למשתמש.</li>
+</ul>
+
+<p>החלון <b>מקבל</b> מציג את הפרטים הבאים עבור כל קובץ:</p>
+
+<ul>
+ <li>מצב ההעברה (הועבר בהצלחה, לא התקבל, העברה מתבצעת וכולי)</li>
+ <li>קצב באוד של העברה עבור קבצים המועברים כרגע</li>
+ <li>גודל הקבצים שהועברו בהצלחה</li>
+</ul>
+
+</div>
+
+</body>
+
+</html>

@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>File Transfer over Bluetooth&reg;</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>File Transfer over Bluetooth<sup>&reg;</sup></h1>
+
+<p>Share local files and folders on your computer with other Bluetooth devices, transfer any type of file between your computer and Bluetooth devices, even create or delete files and folders on a Bluetooth device, and use the Send-To Wizard from the Microsoft Office menu to send files to Bluetooth devices.</p>
+
+<p>Supported profiles and roles:</p>
+
+<ul>
+ <li>File Transfer Profile (FTP) (Client/Server)</li>
+ <li>Basic Imaging Profile (BIP) (Initiator/Responder)</li>
+ <li>Object Push Profile (OPP) (Client/Server)</li>
+</ul>
+
+<p>Supported features:</p>
+
+<ul>
+ <li>Object Exchange (OBEX) 1.5 Single Response Mode (SRM)</li>
+ <li>Microsoft Office integration for Object Push Profile (OPP) client</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Share Local Folder with Other Bluetooth Devices</h2>
+
+<p>Folders on your computer can be shared with other Bluetooth devices by following the steps described in the <a href="cont_conf_bt.htm#_shared_folder_configuration">Folder Sharing Settings</a> section of this User's Guide.</p>
+
+<p>Shared folder is used as the root folder for file transfer via FTP and as the default folder for receiving files via OPP and BIP.</p>
+
+<h2><a name="_browsing_shared_folder">Browse Shared Folder of a Remote Bluetooth Device</a></h2>
+
+<p>When connected to a Bluetooth device supporting FTP, a standard Explorer-like window may be used to conduct normal file operations between the device and the computer, just as they would be done locally:</p>
+
+<ul>
+ <li>Browse files and folders</li>
+ <li>Transfer files and folders</li>
+ <li>Delete files and folders</li>
+ <li>Rename files and folders <br><b><i>Note:</i></b> If the remote device supports FTP server role less than v1.2 then only empty folders can be renamed.</li>
+ <li>Create folders</li>
+</ul>
+
+<p>To access the shared folder on the remote device from the Service Window:</p>
+
+<ol>
+ <li>Open the device’s Services window (see <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Add and Connect to a New Bluetooth<sup>&reg;</sup> Device</a>).</li>
+ <li>Click on <b>Browse Remote Folder</b>.</li>
+</ol>
+
+<p>To access the shared folder on the remote device from the Windows Explorer:</p>
+
+<ol>
+ <li>Open the <b>Computer</b> folder.</li>
+ <li>Click on the icon with the remote device name.</li>
+</ol>
+
+<p><b><i>Note:</i></b> If the remote device supports FTP server role temporarily (i.e. FTP server role can be turned on or off), then link in the <b>Computer</b> folder can be absent. In this case use the remote device Services window.</p>
+
+<p><b><i>Note:</i></b> During data exchange, the remote device may request a password, in which case both devices must enter the same password to enable the connection. If the passwords do not match, the connection will be terminated.</p>
+
+<h2><a name="_sending_files">Send Files to a Bluetooth Device</a></h2>
+
+<p><b>Send File To Bluetooth Device Wizard</b> is used to send files to the remote Bluetooth device. Wizard is able to send single file but several wizards can be launched simultaneously. A sequence of steps is provided to select target remote device and file to send. <b>Send File To Bluetooth Device Wizard</b> can be executed in several scenarios.</p>
+
+<p><b><i>Note:</i></b> Typically, BIP is used for sending pictures from a mobile device to a computer. OPP is used for sending all other types of files. <b>Send File To Bluetooth Device Wizard</b> supports both profiles.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Send Files from Microsoft Office to a Bluetooth Device</h3>
+
+<p>The following versions of <span class="no_translation">Microsoft Office</span> are supported:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>The following <span class="no_translation">Microsoft Office</span> applications and items are supported:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">document</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">workbook</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">presentation</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">database</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">appointment</span>, <span class="translation_from_microsoft">contact</span>, <span class="translation_from_microsoft">message</span>, <span class="translation_from_microsoft">note</span>, <span class="translation_from_microsoft">task</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> item is saved automatically before it can be sent to a remote Bluetooth device.</p>
+
+<p><b><i>Note:</i></b> If <span class="no_translation">Microsoft Office</span> item was never saved then saving prompt will be shown in <span class="no_translation">Word</span>, <span class="no_translation">Excel</span>, and <span class="no_translation">PowerPoint</span>.</p>
+
+<p><b><i>Note:</i></b> If <span class="no_translation">Microsoft Office</span> item is the database and it was just created then <span class="no_translation">Access</span> application shall be restarted.</p>
+
+<p>To send an <span class="no_translation">Microsoft Office</span> item to a remote Bluetooth device:</p>
+
+<ol>
+ <li>Depending on the version of <span class="no_translation">Microsoft Office</span> and <span class="no_translation">Microsoft Office</span> application you use, select <b class="translation_from_wording">Send to Bluetooth</b> action in the submenu <b class="translation_from_microsoft">Share</b>, <b class="translation_from_microsoft">Save and Send</b>, or <b class="translation_from_microsoft">Save and Publish</b>. Please consult <span class="translation_from_microsoft">Microsoft Office Help</span> for directions on how to do this. The <b class="translation_from_wording">Send File To Bluetooth Device Wizard</b> will appear.</li>
+ <li>After the <b>Send File To Bluetooth Device Wizard</b> opens, select the Bluetooth device to send the file to and click the <b>Next</b> button.</li>
+ <li>The file transfer progress window will appear, and the item will be sent to the selected Bluetooth device. You will be notified once the transfer has been completed.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Send Files from Windows Explorer to a Bluetooth Device</h3>
+
+<p>To send files from the Windows Explorer to a Bluetooth Device:</p>
+
+<ol>
+ <li>In the Windows Explorer, right-click on the file icon and select <b>Bluetooth</b> action in <b>Send To</b> item in the context menu. The <b>Send File To Bluetooth Device Wizard</b> will appear.</li>
+ <li>After the <b>Send File To Bluetooth Device Wizard</b> opens, select the Bluetooth device to send the file to and click the <b>Next</b> button.</li>
+ <li>The file transfer progress window will appear, and the chosen file will be sent to the selected Bluetooth device. You will be notified once the transfer has been completed.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Send Files from the Services Window to a Bluetooth Device</h3>
+
+<p>To send files from the Services window to a Bluetooth Device:</p>
+
+<ol>
+ <li>Click the <b>Send File</b> link in the Services window. The Open dialogue window will appear.</li>
+ <li>Choose a file from the list and click on the <b>Open</b> button. The <b>Send File To Bluetooth Device Wizard</b> will appear.</li>
+ <li>After the <b>Send File To Bluetooth Device Wizard</b> opens, click the <b>Next</b> button.</li>
+ <li>The file transfer progress window will appear, and the chosen file will be sent to the selected Bluetooth device. You will be notified once the transfer has been completed.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Receive Files from a Bluetooth Device</h2>
+
+<p>When another Bluetooth device initiates a file transfer to your computer using BIP or OPP, the window <b>Receiving Files</b> will appear providing a default destination path for the incoming file(s).</p>
+
+<p><b><i>Note:</i></b> Typically, BIP is used for sending pictures from a mobile device to a computer. OPP is used for sending all other types of files.</p>
+
+<p>Within the Receiving Files window you can change the default destination folder where incoming files/pictures are saved. To do this, follow these steps:</p>
+
+<ol>
+ <li>Click <b>Browse</b> and select the desired folder window.</li>
+ <li>After a path is selected, click <b>Accept</b> to start the file transfer.</li>
+ <li>To reject an incoming file, click <b>Reject</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Modify Files and Folders from a Bluetooth Device</h3>
+
+<p>A Bluetooth device that supports FTP profile can make changes to files and folders in the local shared folder. Special permissions will be requested if the remote device will try to overwrite, rename or delete shared content. The <b>Permission request</b> window will appear before these changes can be done. Within the <b>Permission request</b> window you have the following options:</p>
+
+<ul>
+ <li>Select <b>Allow this time only</b> and click <b>OK</b> to allow changes from a Bluetooth device temporarily.</li>
+ <li>Select <b>Always allow this device</b> and click <b>OK</b> to allow changes from a Bluetooth device while a Bluetooth device is paired.</li>
+ <li>To deny changes from a Bluetooth device temporarily, click <b>Cancel</b>.</li>
+</ul>
+
+<p>If the file to be transferred does not change any existing file, then it shall be transferred without the <b>Permission request</b> window appearance.</p>
+
+<h3><a name="_receiving_files_progress">Receiving Files Progress</a></h3>
+
+<p>When another Bluetooth device initiates a file transfer to your computer and the transfer is accepted, the <b>Receiving</b> window may appear:</p>
+
+<ul>
+ <li>If the remote device is BIP or OPP client, then the <b>Receiving</b> window appears.</li>
+ <li>If the remote device is FTP client, then the <b>Receiving</b> window appearance can be configured by following the steps described in the <a href="cont_conf_bt.htm#_shared_folder_configuration">Folder Sharing Settings</a> section of this User's Guide.</li>
+</ul>
+
+<p>The <b>Receiving</b> window shows the following information for every file:</p>
+
+<ul>
+ <li>Transfer status (received successfully, not received, transfer in progress, etc.)</li>
+ <li>Transfer baud rate for files which are currently transferring</li>
+ <li>Size of files which were received successfully</li>
+</ul>
+
+</body>
+
+</html>

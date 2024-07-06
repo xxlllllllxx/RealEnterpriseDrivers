@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=shift_jis">
+    <title>Bluetooth(R) でのファイル転送</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Bluetooth<sup>&reg;</sup> でのファイル転送</h1>
+
+<p>コンピュータのローカル ファイルとフォルダを他の Bluetooth デバイスと共有すること、コンピュータと Bluetooth デバイス間で任意のタイプのファイルを転送すること、Bluetooth デバイスでファイルとフォルダの作成または削除を行うこと、Microsoft Office のメニューから送信ウィザードを使用して Bluetooth デバイスにファイルを送信することができます。</p>
+
+<p>サポートされるプロファイルとロール:</p>
+
+<ul>
+ <li>File Transfer Profile (FTP: ファイル転送プロトコル) (クライアント/サーバー)</li>
+ <li>Basic Imaging Profile (BIP) (発信側/応答側)</li>
+ <li>Object Push Profile (OPP) (クライアント/サーバー)</li>
+</ul>
+
+<p>サポートされている機能:</p>
+
+<ul>
+ <li>Object Exchange (OBEX オブジェクト交換) 1.5 Single Response Mode (SRM: シングル レスポンス モード)</li>
+ <li>Object Push Profile (OPP: オブジェクト プッシュ プロファイル ) クライアント用としての Microsoft Office の統合</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>他の Bluetooth デバイスとのローカル フォルダの共有</h2>
+
+<p>コンピュータのフォルダを他の Bluetooth デバイスと共有するには、このユーザー ガイドの「<a href="cont_conf_bt.htm#_shared_folder_configuration">フォルダの共有設定</a>」で説明されている手順を実行してください。</p>
+
+<p>共有フォルダは、FTP 経由でファイル転送を行う場合のルート フォルダ、および OPP と BIP 経由でファイルを受信する場合のデフォルトのフォルダとして使用されます。</p>
+
+<h2><a name="_browsing_shared_folder">リモート Bluetooth デバイスの共有フォルダの参照</a></h2>
+
+<p>FTP をサポートしている Bluetooth デバイスに接続した場合は、ローカルの場合と同様の以下のような一般的なファイル操作をデバイスとコンピュータとの間で行うために、標準のエクスプローラに似たウィンドウが使用されることがあります。</p>
+
+<ul>
+ <li>ファイルとフォルダの参照</li>
+ <li>ファイルとフォルダの転送</li>
+ <li>ファイルとフォルダの削除</li>
+ <li>ファイルとフォルダの名前変更 <br><b><i>注:</i></b> リモート デバイスが v1.2 より前の FTP サーバー ロールをサポートしている場合、空のフォルダ名のみを変更できます。</li>
+ <li>フォルダの作成</li>
+</ul>
+
+<p>[サービス] ウィンドウからリモート デバイスの共有フォルダにアクセスするには:</p>
+
+<ol>
+ <li>デバイスの [サービス] ウィンドウを開きます (「<a href="star_new_devi.htm#_start_working_new_bluetooth_device">新しい Bluetooth<sup>&reg;</sup> デバイスの追加と接続</a>」を参照)。</li>
+ <li><b>[リモートフォルダを参照する]</b> をクリックします。</li>
+</ol>
+
+<p>Windows エクスプローラからリモート デバイスの共有フォルダにアクセスするには:</p>
+
+<ol>
+ <li><b>[コンピュータ]</b> フォルダを開きます。</li>
+ <li>リモート デバイス名のアイコンをクリックします。</li>
+</ol>
+
+<p><b><i>注:</i></b> リモート デバイスが FTP サーバー ロールを一時的にサポートする場合 (つまり、FTP サーバー ロールのオン/オフを切り替えることができる場合)、<b>[コンピュータ]</b> フォルダのリンクを空にすることもできます。この場合、リモート デバイスの [サービス] ウィンドウを使用します。</p>
+
+<p><b><i>注:</i></b> データ交換時には、リモート デバイスからパスワードの入力を求められることがあります。この場合、接続を有効にするには、両方のデバイスが同じパスワードを入力する必要があります。パスワードが一致しない場合、接続は中止されます。</p>
+
+<h2><a name="_sending_files">Bluetooth デバイスへのファイルの送信</a></h2>
+
+<p>リモート Bluetooth デバイスにファイルを送信するには、<b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードを使用します。ウィザードでは 1 つのファイルを送信できますが、同時に複数のウィザードを起動することができます。対象のリモート デバイスと送信するファイルを選択する一連の手順が表示されます。<b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードは、さまざまなシナリオで利用できます。</p>
+
+<p><b><i>注:</i></b> 通常、BIP はモバイル デバイスからコンピュータに画像を送信する際に使用されます。OPP はその他のすべてのファイルを送信するために使用されます。<b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードは両方のプロファイルをサポートしています。</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Microsoft Office から Bluetooth デバイスへのファイル送信</h3>
+
+<p>次のバージョンの <span class="no_translation">Microsoft Office</span> がサポートされています:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>次の <span class="no_translation">Microsoft Office</span> アプリケーションおよびアイテムがサポートされています:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">ドキュメント</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">ワークブック</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">プレゼンテーション</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">データベース</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">予定</span>、<span class="translation_from_microsoft">連絡先</span>、<span class="translation_from_microsoft">メッセージ</span>、<span class="translation_from_microsoft">メモ</span>、<span class="translation_from_microsoft">タスク</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> アイテムは、リモート Bluetooth デバイスに送信される前に自動的に保存されます。</p>
+
+<p><b><i>注:</i></b> <span class="no_translation">Microsoft Office</span> アイテムがまったく保存されていない場合、<span class="no_translation">Word</span>、<span class="no_translation">Excel</span>、および <span class="no_translation">PowerPoint</span> で保存プロンプトが表示されます。</p>
+
+<p><b><i>注:</i></b> <span class="no_translation">Microsoft Office</span> アイテムがデータベースで作成したばかりの場合、<span class="no_translation">Access</span> アプリケーションが再起動されます。</p>
+
+<p><span class="no_translation">Microsoft Office</span> アイテムをリモート Bluetooth デバイスに送信するには:</p>
+
+<ol>
+ <li><span class="no_translation">Microsoft Office</span> および <span class="no_translation">Microsoft Office</span> アプリケーションのバージョンに応じて、<b class="translation_from_microsoft">[共有]</b>、<b class="translation_from_microsoft">[保存して送信]</b>、または <b class="translation_from_microsoft">[保存して発行]</b> サブメニューの <b class="translation_from_wording">[Bluetooth への送信]</b> アクションを選択します。操作方法については、<span class="translation_from_microsoft">Microsoft Office のヘルプ</span>を参照してください。<b class="translation_from_wording">[Bluetooth デバイスへのファイルの送信]</b> ウィザードが表示されます。</li>
+ <li><b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードが開いたら、ファイルの送信先とする Bluetooth デバイスを選択し、<b>[次へ]</b> ボタンをクリックします。</li>
+ <li>ファイル転送の進行状況を示すウィンドウが表示され、選択した Bluetooth デバイスにアイテムが送信されます。転送が完了すると通知されます。</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Windows エクスプローラから Bluetooth デバイスへのファイル送信</h3>
+
+<p>Windows エクスプローラから Bluetooth デバイスにファイルを送信するには:</p>
+
+<ol>
+ <li>Windows エクスプローラで、ファイル アイコンを右クリックし、コンテキスト メニューの <b>[送る]</b> 項目の <b>[Bluetooth]</b> アクションを選択します。<b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードが表示されます。</li>
+ <li><b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードが開いたら、ファイルの送信先とする Bluetooth デバイスを選択し、<b>[次へ]</b> ボタンをクリックします。</li>
+ <li>ファイルの転送の進行状況ウィンドウが表示され、選択した Bluetooth デバイスに選択したファイルが送信されます。転送が完了すると、通知が表示されます。</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>[サービス] ウィンドウから Bluetooth デバイスへのファイル送信</h3>
+
+<p>[サービス] ウィンドウから Bluetooth デバイスにファイルを送信するには:</p>
+
+<ol>
+ <li>[サービス] ウィンドウで、<b>[ファイルを送信する]</b> リンクをクリックします。[開く] ダイアログ ボックスが表示されます。</li>
+ <li>一覧からファイルを選択し、<b>[開く]</b> ボタンをクリックします。<b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードが表示されます。</li>
+ <li><b>Bluetoothデバイスのファイル送信ウィザード</b> ウィザードが開いたら、<b>[次へ]</b> ボタンをクリックします。</li>
+ <li>ファイルの転送の進行状況ウィンドウが表示され、選択した Bluetooth デバイスに選択したファイルが送信されます。転送が完了すると、通知が表示されます。</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Bluetooth デバイスからのファイルの受信</h2>
+
+<p>別の Bluetooth デバイスが BIP または OPP を使用してコンピュータにファイルの転送を開始する場合は、<b>[ファイルを受信中です]</b> ウィンドウに、受信ファイル用のデフォルトの宛先パスが表示されます。</p>
+
+<p><b><i>注:</i></b> 通常、BIP はモバイル デバイスからコンピュータに画像を送信する際に使用されます。OPP はその他のすべてのファイルを送信するために使用されます。</p>
+
+<p>[ファイルを受信しています] ウィンドウでは、受信ファイル/画像が保存されるデフォルトの移動先フォルダを変更することができます。これを実行するには、以下の手順に従います。</p>
+
+<ol>
+<li><b>[参照]</b> をクリックし、目的のフォルダ ウィンドウを選択します。</li>
+ <li>パスを選択したら、<b>[承諾]</b> をクリックして、ファイル転送を開始します。</li>
+  <li>ファイルの受信を拒否するには、<b>[拒否]</b> をクリックします。</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Bluetooth デバイスからのファイルとフォルダの変更</h3>
+
+<p>FTP プロファイルをサポートする Bluetooth デバイスでは、ローカルの共有フォルダ内にあるファイルとフォルダを変更できます。リモート デバイスが共有コンテンツの上書き、名前の変更、または削除を行う場合は、特殊な許可が必要です。このような変更を行う前に <b>[許可の要求]</b> ウィンドウが表示されます。<b>[許可の要求]</b> ウィンドウには次のオプションがあります。</p>
+
+<ul>
+ <li><b>[今回のみ許可する]</b> を選択し <b>[OK]</b> をクリックして、Bluetooth デバイスからの変更を一時的に許可します。</li>
+ <li><b>[常にこのデバイスを許可する]</b> を選択し <b>[OK]</b> をクリックして、Bluetooth デバイスがペアリングされている間の Bluetooth デバイスからの変更を許可します。</li>
+ <li>Bluetooth デバイス からの変更を一時的に拒否するには、<b>[キャンセル]</b> をクリックします。</li>
+</ul>
+
+<p>転送対象のファイルによって既存のファイルが変更されない場合は、転送時に <b>[許可の要求]</b> ウィンドウが表示されません。</p>
+
+<h3><a name="_receiving_files_progress">ファイル受信の進行状況</a></h3>
+
+<p>お使いのコンピュータに対して別の Bluetooth デバイスからファイル転送が開始され、転送を受け入れるときに、<b>[受信]</b> ウィンドウが表示されることがあります。</p>
+
+<ul>
+ <li>リモート デバイスが BIP クライアントまたは OPP クライアントの場合、<b>[受信]</b> ウィンドウが表示されます。</li>
+ <li>リモート デバイスが FTP クライアントの場合、このユーザー ガイドの「<a href="cont_conf_bt.htm#_shared_folder_configuration">フォルダの共有設定</a>」に記載されている手順に従って、<b>[受信]</b> ウィンドウの表示を構成できます。</li>
+</ul>
+
+<p><b>[受信]</b> ウィンドウには、各ファイルの次の情報が表示されます。</p>
+
+<ul>
+ <li>転送の状態 (正常に受信、非受信、転送の進行中など)</li>
+ <li>現在転送されているファイルの転送ボーレート</li>
+ <li>正常に受信されたファイルのサイズ</li>
+</ul>
+
+</body>
+
+</html>

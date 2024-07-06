@@ -1,0 +1,171 @@
+<html>
+
+<head>
+    <meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+    <title>Tiedoston siirto Bluetooth&reg;-yhteyden kautta</title>
+    <link rel=Stylesheet type="text/css" media=all href="MS_Help.css">
+</head>
+
+<body bgcolor=white link=blue vlink=purple>
+
+<h1><a name="_working_with_files_over_bluetooth"></a>Tiedoston siirto Bluetooth<sup>&reg;</sup>-yhteyden kautt</h1>
+
+<p>Voit jakaa tietokoneellasi olevia paikallisia kansioita muiden Bluetooth-laitteiden kanssa, siirtää kaikentyyppisiä tiedostoja tietokoneen ja Bluetooth-laitteiden välillä, luoda tai poistaa tiedostoja ja kansioita Bluetooth-laitteessa ja lähettää tiedostoja Bluetooth-laitteisiin käyttämällä Microsoft Office -valikon ohjattua lähetystoimintoa.</p>
+
+<p>Tuetut profiilit ja roolit:</p>
+
+<ul>
+ <li>File Transfer Profile (FTP) (Asiakasohjelma/Palvelin)</li>
+ <li>Basic Imaging Profile (BIP) (aloittaja/vastaaja)</li>
+ <li>Object Push -profiili (OPP) (työasema/palvelin)</li>
+</ul>
+
+<p>Tuetut ominaisuudet:</p>
+
+<ul>
+ <li>Object Exchange (OBEX) 1.5 Single Response Mode (SRM)</li>
+ <li>Object Push Profile (OPP) -asiakasohjelman Microsoft Office -integrointi</li>
+</ul>
+
+<h2><a name="_sharing_local_folder_for_bluetooth_devices"></a>Paikallisen kansion jakaminen muiden Bluetooth-laitteiden kanssa</h2>
+
+<p>Tietokoneella olevia kansioita voidaan jakaa muiden Bluetooth-laitteiden kanssa tämän käyttöoppaan kohdan <a href="cont_conf_bt.htm#_shared_folder_configuration">Kansion jakamisen asetukset</a> mukaisesti.</p>
+
+<p>Jaettua kansiota käytetään juurihakemistona FTP:n kautta tapahtuvalle tiedostonsiirrolle ja oletuskansiona OPP:n ja BIP:n kautta vastaanotettaville tiedostoille.</p>
+
+<h2><a name="_browsing_shared_folder">Bluetooth-etälaitteen jaetun kansion selaaminen</a></h2>
+
+<p>Kun laite on liitetty Bluetooth-laitteeseen, joka tukee FTP-yhteyttä, voit käyttää ja siirtää tiedostoja laitteen ja tietokoneen välillä samalla tavalla kuin paikallisestikin tavallisen resurssienhallinnan kaltaisessa ikkunassa:</p>
+
+<ul>
+ <li>selaa tiedostoja ja kansioita</li>
+ <li>siirrä tiedostoja ja kansioita</li>
+ <li>poista tiedostoja ja kansioita</li>
+ <li>nimeä tiedostoja ja kansioita uudelleen <br><b><i>Huomautus:</i></b> Jos etälaite tukee FTP-palvelinroolia, jonka versio on vanhempi kuin v1.2, tyhjiä kansioita voi nimetä uudelleen.</li>
+ <li>Kansioiden luominen</li>
+</ul>
+
+<p>Etälaitteen jaetun kansion avaaminen Palvelut-ikkunasta:</p>
+
+<ol>
+ <li>Avaa laitteen Palvelut-ikkuna (katso <a href="star_new_devi.htm#_start_working_new_bluetooth_device">Uuden Bluetooth<sup>&reg;</sup>-laitteen lisääminen ja yhdistäminen</a>).</li>
+ <li>Valitse <b>Selaa etäkansiota</b>.</li>
+</ol>
+
+<p>Etälaitteen jaetun kansion avaaminen Windowsin resurssienhallinnan kautta:</p>
+
+<ol>
+ <li>Avaa <b>Tietokone</b>-kansio.</li>
+ <li>Napsauta etälaitteen kuvaketta.</li>
+</ol>
+
+<p><b><i>Huomautus:</i></b> Jos etälaite tukee tilapäistä FTP-palvelinroolia (esim. FTP-palvelin rooli voidaan ottaa käyttöön tai poistaa käytöstä) <b>Tietokone</b>-kansion linkkiä ei välttämättä ole. Käytä tällöin etälaitteen Palvelut-ikkunaa.</p>
+
+<p><b><i>Huomautus:</i></b> Etälaite voi pyytää salasanaa tiedonsiirron aikana. Tässä tapauksessa molempiin laitteisiin on näppäiltävä sama salasana, jotta yhteys voidaan muodostaa. Jos salasanat eivät täsmää, yhteys katkaistaan.</p>
+
+<h2><a name="_sending_files">Tiedostojen lähetys Bluetooth-laitteeseen</a></h2>
+
+<p><b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> käytetään tiedostojen lähettämisessä Bluetooth-etälaitteeseen. Ohjattu toiminto voi lähettää yhden tiedoston, mutta ohjattuja toimintoja voi käynnistää useita samanaikaisesti. Kohteena oleva etälaite valitaan ja tiedosto lähetetään vaiheittain. <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> voidaan käyttää eri tilanteissa.</p>
+
+<p><b><i>Huomautus:</i></b> BIP-profiilia käytetään yleensä lähetettäessä kuvia mobiililaitteesta tietokoneeseen. OPP:tä käytetään kaikkien muiden tiedostotyyppien lähettämiseen. <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> tukee molempia profiileja.</p>
+
+<h3><a name="_sending_files_microsoft_office_to_bluetooth_device"></a>Tiedostojen lähetys Microsoft Officesta Bluetooth-laitteeseen</h3>
+
+<p>Seuraavia <span class="no_translation">Microsoft Office</span> -versioita tuetaan:</p>
+
+<ul>
+ <li>Microsoft Office 2010</li>
+ <li>Microsoft Office 2013</li>
+</ul>
+
+<p>Seuraavia <span class="no_translation">Microsoft Office</span> -sovelluksia ja -kohteita tuetaan:</p>
+
+<ul>
+ <li><span class="no_translation">Word</span>: <span class="translation_from_microsoft">asiakirja</span></li>
+ <li><span class="no_translation">Excel</span>: <span class="translation_from_microsoft">työkirja</span></li>
+ <li><span class="no_translation">PowerPoint</span>: <span class="translation_from_microsoft">esitys</span></li>
+ <li><span class="no_translation">Access</span>: <span class="translation_from_microsoft">tietokanta</span></li>
+ <li><span class="no_translation">Outlook</span>: <span class="translation_from_microsoft">tapaaminen</span>, <span class="translation_from_microsoft">yhteystieto</span>, <span class="translation_from_microsoft">viesti</span>, <span class="translation_from_microsoft">muistiinpano</span>, <span class="translation_from_microsoft">tehtävä</span></li>
+</ul>
+
+<p><span class="no_translation">Microsoft Office</span> -kohde tallennetaan automaattisesti, ennen kuin sen voi lähettää Bluetooth-etälaitteeseen.</p>
+
+<p><b><i>Huomautus:</i></b> jos <span class="no_translation">Microsoft Office</span> -kohdetta ei ole tallennettu, tallennuskehote näkyy <span class="no_translation">Wordissa</span>, <span class="no_translation">Excelissä</span> ja <span class="no_translation">PowerPointissa</span>.</p>
+
+<p><b><i>Huomautus:</i></b> jos <span class="no_translation">Microsoft Office</span> -kohde on juuri luotu tietokanta, <span class="no_translation">Access</span>-sovellus käynnistetään uudelleen.</p>
+
+<p><span class="no_translation">Microsoft Office</span> -kohteen lähettäminen Bluetooth-etälaitteeseen:</p>
+
+<ol>
+ <li>Valitse käyttämäsi <span class="no_translation">Microsoft Office</span>- ja <span class="no_translation">Microsoft Office</span> -sovelluksen version mukaan <b class="translation_from_wording">Jakaminen</b>-, <b class="translation_from_microsoft">Tallenna ja lähetä</b>-, tai <b class="translation_from_microsoft">Tallenna ja julkaise</b> -alivalikosta <b class="translation_from_microsoft">Lähetä Bluetooth-laitteeseen</b>. Katso tarvittaessa lisätietoja <span class="translation_from_microsoft">Microsoft Officen ohjeesta</span>. <b><b class="translation_from_wording">Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b></b> tulee näkyviin.</li>
+ <li>Kun <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> avautuu, valitse Bluetooth-laite, johon tiedosto lähetetään, ja napsauta <b>Seuraava</b>-painiketta.</li>
+ <li>Tiedostonsiirron edistyminen näkyy ikkunassa, ja kohde lähetetään valittuun Bluetooth-laitteeseen. Saat ilmoituksen, kun siirto on suoritettu.</li>
+</ol>
+
+<h3><a name="_sending_files_win_explr_to_bluetooth_device"></a>Tiedostojen lähetys Windowsin resurssienhallinnasta Bluetooth-laitteeseen</h3>
+
+<p>Lähetä tiedostoja Windowsin resurssienhallinnasta Bluetooth-laitteeseen seuraavasti:</p>
+
+<ol>
+ <li>Napsauta tiedostoa hiiren kakkospainikkeella Windowsin resurssienhallinnassa ja valitse valikosta <b>Vastaanottaja</b>-kohtaan <b>Bluetooth</b>-toiminta. <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> tulee näkyviin.</li>
+ <li>Kun <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> avautuu, valitse Bluetooth-laite, johon tiedosto lähetetään, ja napsauta <b>Seuraava</b>-painiketta.</li>
+ <li>Tiedostonsiirron edistyminen näkyy ikkunassa, ja tiedosto lähetetään valittuun Bluetooth-laitteeseen. Saat ilmoituksen, kun siirto on suoritettu.</li>
+</ol>
+
+<h3><a name="_sending_files_service_win_to_bluetooth_device"></a>Tiedostojen lähetys Palvelut-ikkunasta Bluetooth-laitteeseen</h3>
+
+<p>Lähetä tiedostoja Palvelut-ikkunasta Bluetooth-laitteeseen seuraavasti:</p>
+
+<ol>
+ <li>Napsauta <b>Lähetä tiedosto</b> -linkkiä Palvelut-ikkunassa. Avaa-valintaikkuna avautuu.</li>
+ <li>Valitse tiedosto luettelosta ja napsauta <b>Avaa</b>-painiketta. <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> tulee näkyviin.</li>
+ <li>Kun <b>Tiedoston ohjattu lähetys Bluetooth-laitteeseen</b> avautuu, napsauta <b>Seuraava</b>-painiketta.</li>
+ <li>Tiedostonsiirron edistyminen näkyy ikkunassa, ja tiedosto lähetetään valittuun Bluetooth-laitteeseen. Saat ilmoituksen, kun siirto on suoritettu.</li>
+</ol>
+
+<h2><a name="_receiving_files_from_bluetooth_device_to_computer"></a>Tiedostojen vastaanottaminen Bluetooth-laitteesta</h2>
+
+<p>Kun toinen Bluetooth-laite aloittaa tiedostonsiirron tietokoneeseesi BIP- tai OPP-profiilin avulla, näyttöön avautuu <b>Vastaanotetaan tiedostoja</b> -ikkuna, jossa näkyy saapuvien tiedostojen oletusarvoinen kohdepolku.</p>
+
+<p><b><i>Huomautus:</i></b> BIP-profiilia käytetään yleensä lähetettäessä kuvia mobiililaitteesta tietokoneeseen. OPP:tä käytetään kaikkien muiden tiedostotyyppien lähettämiseen.</p>
+
+<p>Vastaanotetaan tiedostoja -ikkunassa voit muuttaa oletuskohdekansiota, jonne saapuvat tiedostot ja kuvat tallennetaan. Voit tehdä tämän seuraavasti:</p>
+
+<ol>
+<li>Napsauta <b>Selaa</b> ja valitse haluamasi kansioikkuna.</li>
+ <li>Käynnistä tiedostonsiirto polun valitsemisen jälkeen napsauttamalla <b>Hyväksy</b>-painiketta.</li>
+  <li>Hylkää saapuva tiedosto valitsemalla <b>Hylkää</b>.</li>
+</ol>
+
+<h3><a name="_modifying_files"></a>Bluetooth-laitteen tiedostojen ja kansioiden muokkaaminen</h3>
+
+<p>FTP-profiilia tukeva Bluetooth-laite voi tehdä muutoksia paikallisen jaetun kansion tiedostoihin ja kansioihin. Erikoisoikeuksia kysytään, jos etälaite yrittää korvata, nimetä uudelleen tai poistaa jaettua sisältöä. <b>Käyttöoikeuspyyntö</b>-ikkuna tulee näkyviin, ennen kuin nämä muutokset voidaan tehdä. Tässä ikkunassa voi valita seuraavat toiminnot ja asetukset:</p>
+
+<ul>
+ <li>Jos haluat antaa Bluetooth-laitteelle luvan tehdä muutoksia tällä kertaa, valitse <b>Salli vain tämän kerran</b> ja <b>OK</b>.</li>
+ <li>Jos haluat antaa Bluetooth-laitteelle luvan tehdä muutoksia aina, valitse <b>Salli aina tämä laite</b> ja <b>OK</b>.</li>
+ <li>Jos haluat kieltää Bluetooth-laitetta tekemästä muutoksia tällä kertaa, valitse <b>Peruuta</b>.</li>
+</ul>
+
+<p>Jos siirrettävä tiedosto ei muuta olemassa olevaa tiedostoa, <b>Käyttöoikeuspyyntö</b>-ikkuna ei tule näkyviin tiedostoa siirrettäessä.</p>
+
+<h3><a name="_receiving_files_progress">Tiedostojen vastaanottamisen edistyminen</a></h3>
+
+<p>Kun toinen Bluetooth-laite aloittaa tiedostonsiirron tietokoneeseen ja siirto hyväksytään, <b>Vastaanotetaan</b>-ikkuna saattaa tulla näkyviin:</p>
+
+<ul>
+ <li>Jos etälaite on BIP- tai OPP-työasema, <b>Vastaanotetaan</b>-ikkuna tulee näkyviin.</li>
+ <li>Jos etälaite on FTP-työasema, <b>Vastaanotetaan</b>-ikkunan näkyviin tuleminen voidaan määrittää tämän käyttöoppaan kohdassa <a href="cont_conf_bt.htm#_shared_folder_configuration">Kansion jakamisen asetukset</a> kuvatulla tavalla.</li>
+</ul>
+
+<p><b>Vastaanotetaan</b>-ikkunassa näkyvät seuraavat tiedot jokaisesta tiedostosta:</p>
+
+<ul>
+ <li>Siirron tila (vastaanotettu, ei vastaanotettu, siirto käynnissä jne.)</li>
+ <li>Siirron siirtonopeus parhaillaan siirrettäville tiedostoille</li>
+ <li>Onnistuneesti vastaanotettujen tiedostojen koko</li>
+</ul>
+
+</body>
+
+</html>
